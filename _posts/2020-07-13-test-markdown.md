@@ -2,8 +2,8 @@
 layout: post
 title: Is '#BoycottChineseProducts' pragmatic?
 subtitle: Is it possible for an average Indian who is losing his job in this pandemic to buy an expensive non-Chinese phone?
-cover-img: /assets/img/China-tech.jpg
-thumbnail-img: /assets/img/oneplus.jpg
+cover-img: /assets/img/oneplus.jpg
+thumbnail-img: /assets/img/China-tech.jpg
 ---
 
 There has been an outrage on social media with hashtags like #BoycottChina, #BoycottChineseProducts as a result of the border standoff in Ladakh, and China being the cause for the spread of the virulent coronavirus. The numbers say that only 2% of China’s lucrative trade export is India bound. Therefore this movement will not beget as big as an impact on that country. The timing of such a move by Indians is also questionable. China has restarted its industrial operations and has been first off the mark in re-opening the economy after the COVID lockdown.
