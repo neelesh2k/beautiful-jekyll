@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Why the iPhone can’t compete in India?
-cover-img: /assets/img/iphone-cover.jpg
-thumbnail-img: /assets/img/iphone-thumbnail.jpg
+cover-img: /assets/img/iphone-thumbnail.jpg
+thumbnail-img: /assets/img/iphone-cover.jpg
 ---
 
 India is a home for 1.32 billion people. By 2024, it will pass China and become the most populous country in the world. Despite being decades behind in basic infrastructure like schools and sanitation, India’s GDP is among the fastest in the world which means 1.3 billion potential customers. When companies like Google, Uber and Amazon struggled to enter and compete with the locals like Baidu and Alibaba in China, they have largely succeeded in India. Apple is only a tiny sliver in the Indian market.
