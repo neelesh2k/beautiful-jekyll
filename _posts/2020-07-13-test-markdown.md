@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Is '#BoycottChina' pragmatic?
-subtitle: Is it possible for an average Indian who is losing his job in this pandemic to buy an expensive non-Chinese phone?
 cover-img: /assets/img/oneplus.jpg
 thumbnail-img: /assets/img/China-tech.jpg
 ---
