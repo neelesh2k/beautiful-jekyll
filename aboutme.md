@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-Hey! I'm Neelesh, currently doing my undergrad focused in Industrial Engineering at the College of Engineering Guindy. 
+Hey! I'm Neelesh, and am currently doing my pre-final year at College of Engineering Guindy majoring in Industrial Engineering.  
 
-Aspiring Data Scientist   .  Front-End Web Developer  .  Graphic Designer   .  Tech Geek  .  Sport Aficionado 
+Data Science Intern   .  Front-End Developer  .  Graphic Designer   .  Tech Geek  .  Sport Aficionado 
 
