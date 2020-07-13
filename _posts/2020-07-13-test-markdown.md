@@ -13,4 +13,3 @@ The dearth of competition from Indian manufacturers like Micromax, Lava, and Kar
 
 India’s most smartphone sales come from the ₹5,000 to ₹15,000 price bracket and Samsung being a Korean brand is the only alternative here. Samsung had the scope to prove itself during this ‘Anti-Chinese’ period, but it surfaced with Galaxy M11 which had terrible specs for ₹11,000. The iPhones and Google Pixels are far beyond the budget of an average Indian. Hence, it is clear that there are very few alternatives in the current scenario.
 The bottom line is that for an average Indian who is losing his job during this pandemic, he is left with no other option rather than buying a Chinese smartphone.
-Image for post
