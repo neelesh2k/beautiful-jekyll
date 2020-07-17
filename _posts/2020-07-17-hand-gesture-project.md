@@ -1,10 +1,9 @@
-![](RackMultipart20200717-4-3ug7q8_html_4b07c7b46b91852b.png)
-
-#
-## **Gesture Identification &amp; Recognition**
-
-###
-
+---
+layout: post
+title: Gesture Identification &amp; Recognition
+cover-img: /assets/img/apple-watch.jpg
+thumbnail-img: /assets/img/apple-watch.jpg
+---
 
 # OVERVIEW
 
