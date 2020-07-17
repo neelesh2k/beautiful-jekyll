@@ -13,6 +13,8 @@ author: Neelesh Karthikeyan
 
 navbar-links:
   About Me: "aboutme"
+  Projects: 
+    - Gesture Identification : "https://neelesh2k.github.io/2020-07-17-hand-gesture-project/"
 
 # --- Logo --- #
 
