@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Gesture Identification &amp; Recognition
+title: Controlling IOT Gadgets using Hand-Gestures
 cover-img: /assets/img/apple-watch.jpg
 thumbnail-img: /assets/img/apple-watch.jpg
 ---
 
-
-## Overview
 A proof of concept has been developed to identify and recognize a hand-gesture using a wearable inertial measurement unit (IMU). The SmartWatch Gestures Dataset and UCI&#39;s ADL Dataset have been used for this POC. Recurrence rate, Transitivity, and Global clustering were extracted from the accelerometer data. Support Vector Machines and Decision Tree algorithms were built to classify the two classes (gestures and non-gestures).
 
 
