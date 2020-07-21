@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Controlling IOT Gadgets using Hand-Gestures
+title: Hand-Gesture Recognition using Smart Watches
 cover-img: /assets/img/apple-watch.jpg
 thumbnail-img: /assets/img/apple-watch.jpg
 ---
@@ -18,7 +18,7 @@ To control an Android device using hand-gestures.
 3. A recurrence matrix was computed and a **recurrence plot** was visualized.
 4. The **recurrence rate** was extracted from the recurrence plot.
 5. A **recurrence network** was built by identifying the recurrence matrix as the adjacency matrix.
-6. **Transitivity** and **Global clustering** values were extracted from the recurrence network.
+6. **Transitivity** values were extracted from the recurrence network.
 7. The same procedure was followed for extracting the features from the ADL dataset (Non-gestures).
 8. Recurrence rate, Transitivity, global clustering values were taken as the features.
 9. A binary classification model is built using **Support vector machines** and the **Decision Tree algorithm**.
