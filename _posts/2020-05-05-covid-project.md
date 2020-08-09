@@ -20,14 +20,14 @@ thumbnail-img: /assets/img/covid-world.jpg
 
    
 ### Column Description
-Sno - Serial number
-ObservationDate - Date of the observation in MM/DD/YYYY
-Province/State - Province or state of the observation (Could be empty when missing)
-Country/Region - Country of observation
-Last Update - Time in UTC at which the row is updated for the given province or country. (Not standardised and so please clean before using it)
-Confirmed - Cumulative number of confirmed cases till that date
-Deaths - Cumulative number of of deaths till that date
-Recovered - Cumulative number of recovered cases till that date
+- Sno - Serial number
+- ObservationDate - Date of the observation in MM/DD/YYYY
+- Province/State - Province or state of the observation (Could be empty when missing)
+- Country/Region - Country of observation
+- Last Update - Time in UTC at which the row is updated for the given province or country. (Not standardised and so please clean before using it)
+- Confirmed - Cumulative number of confirmed cases till that date
+- Deaths - Cumulative number of of deaths till that date
+- Recovered - Cumulative number of recovered cases till that date
 
 
 ### Libraries Used:
@@ -58,16 +58,16 @@ Since we are predicting the number of worldwide cases, pandas groupby() function
 7. The US has the greatest number of confirmed cases. The UK has an insignificant number of recoveries. In Turkey, there is an insignificant number of deaths.
 
 ## Time Series Analysis
-### Trend
-A trend exists when there is a long-term increase or decrease in the data. It does not have to be linear. Sometimes we will refer to a trend as “changing direction”, when it might go from an increasing trend to a decreasing trend. 
-#### Types of Trend patterns
-Positive Trend – It has a positive slope.
-Negative Trend – It has a negative slope.
-No Trend – It is just a horizontal line with zero slope.
-### Seasonal
-A seasonal pattern occurs when a time series is affected by seasonal factors such as the time of the year or the day of the week. Seasonality is always of a fixed and known frequency. 
-### Cyclic
-A cycle occurs when the data exhibit rises and falls that are not of a fixed frequency. These fluctuations are usually due to economic conditions, and are often related to the “business cycle”. The duration of these fluctuations is usually at least 2 years.
+  ### Trend
+  A trend exists when there is a long-term increase or decrease in the data. It does not have to be linear. Sometimes we will refer to a trend as “changing direction”, when it might go from an increasing trend to a decreasing trend. 
+  #### Types of Trend patterns
+  Positive Trend – It has a positive slope.
+  Negative Trend – It has a negative slope.
+  No Trend – It is just a horizontal line with zero slope.
+  ### Seasonal
+  A seasonal pattern occurs when a time series is affected by seasonal factors such as the time of the year or the day of the week. Seasonality is always of a fixed and known frequency. 
+  ### Cyclic
+  A cycle occurs when the data exhibit rises and falls that are not of a fixed frequency. These fluctuations are usually due to economic conditions, and are often related to the “business cycle”. The duration of these fluctuations is usually at least 2 years.
 
 ### Forecasting Models which were used in this case study:
 1. Holt’s model (Double exponential smoothing)
@@ -93,10 +93,10 @@ Since our data has a positive trend with no seasonality, we are choosing Double 
 4. Root Mean Squared error (RMSE) : 64,048.40
 5. R2 value : 0.96
 
-I. This model predicted 4,613,092 confirmed cases by May 14, 2020.
-II. Number of Active cases by 14th May : 2,411,128
-III. Number of Recoveries by 14th May : 1,538,211
-IV. Number of Deaths by 14th May : 384,901
+- This model predicted 4,613,092 confirmed cases by May 14, 2020.
+- Number of Active cases by 14th May : 2,411,128
+- Number of Recoveries by 14th May : 1,538,211
+- Number of Deaths by 14th May : 384,901
 
 ### Evaluating forecast accuracy (Autoregressive Model)
 1. Standard Deviation of Test data : 325,029.92
@@ -105,10 +105,10 @@ IV. Number of Deaths by 14th May : 384,901
 4. Root Mean Squared error (RMSE) : 310450.41
 5. R2 value : 0.08
 
-- I. his model predicted 4,727,363 confirmed cases by May 14, 2020.
-- II. Number of Active cases by 14th May : 2,350,483
-- III. Number of Recoveries by 14th May : 1,768,459
-- IV. Number of Deaths by 14th May : 673,726
+- This model predicted 4,727,363 confirmed cases by May 14, 2020.
+- Number of Active cases by 14th May : 2,350,483
+- Number of Recoveries by 14th May : 1,768,459
+- Number of Deaths by 14th May : 673,726
 
 ## ARIMA Model
 ARIMA, or Autoregressive Integrated Moving Average is actually a combination of 3 models:
@@ -124,10 +124,10 @@ pmdarima Auto-ARIMA is a third-party tool which shows a recommended (p,d,q) ARIM
 4. Root Mean Squared error (RMSE) : 26302.42
 5. R2 value : 0.993
 
-- I. This model predicted 4,454,258 confirmed cases by May 14, 2020.
-- II. Number of Active cases by 14th May : 2,450,200
-- III. Number of Recoveries by 14th May : 1,625,422
-- IV. Number of Deaths by 14th May : 367,525
+- This model predicted 4,454,258 confirmed cases by May 14, 2020.
+- Number of Active cases by 14th May : 2,450,200
+- Number of Recoveries by 14th May : 1,625,422
+- Number of Deaths by 14th May : 367,525
 
 ## Facebook's Prophet Library
 This is specifically designed to forecast the daily business data sets that are common at Facebook, Inc. 
@@ -151,10 +151,10 @@ The ds (datestamp) column should be of a format expected by Pandas, ideally YYYY
 4. Root Mean Squared error (RMSE) : 25860.77
 5. R2 value : 0.999
 
-- I. This model predicted 4,402,222 confirmed cases by May 14, 2020.
-- II. Number of Active cases by 14th May : 2,673,383
-- III. Number of Recoveries by 14th May : 1,398,758
-- IV. Number of Deaths by 14th May : 328,023
+- This model predicted 4,402,222 confirmed cases by May 14, 2020.
+- Number of Active cases by 14th May : 2,673,383
+- Number of Recoveries by 14th May : 1,398,758
+- Number of Deaths by 14th May : 328,023
 
 
 ### Summary
