@@ -12,11 +12,11 @@ thumbnail-img: /assets/img/covid-world.jpg
 
 
 ### Workflow
-Step 1 : Problem definition
-Step 2 : Gathering information
-Step 3 : Preliminary (exploratory) analysis
-Step 4: Choosing and fitting models
-Step 5: Using and evaluating a forecasting mode
+- Step 1 : Problem definition
+- Step 2 : Gathering information
+- Step 3 : Preliminary (exploratory) analysis
+- Step 4: Choosing and fitting models
+- Step 5: Using and evaluating a forecasting mode
 
    
 ### Column Description
