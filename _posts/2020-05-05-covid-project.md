@@ -105,10 +105,10 @@ IV. Number of Deaths by 14th May : 384,901
 4. Root Mean Squared error (RMSE) : 310450.41
 5. R2 value : 0.08
 
-I. his model predicted 4,727,363 confirmed cases by May 14, 2020.
-II. Number of Active cases by 14th May : 2,350,483
-III. Number of Recoveries by 14th May : 1,768,459
-IV. Number of Deaths by 14th May : 673,726
+- I. his model predicted 4,727,363 confirmed cases by May 14, 2020.
+- II. Number of Active cases by 14th May : 2,350,483
+- III. Number of Recoveries by 14th May : 1,768,459
+- IV. Number of Deaths by 14th May : 673,726
 
 ## ARIMA Model
 ARIMA, or Autoregressive Integrated Moving Average is actually a combination of 3 models:
@@ -124,10 +124,10 @@ pmdarima Auto-ARIMA is a third-party tool which shows a recommended (p,d,q) ARIM
 4. Root Mean Squared error (RMSE) : 26302.42
 5. R2 value : 0.993
 
-I. This model predicted 4,454,258 confirmed cases by May 14, 2020.
-II. Number of Active cases by 14th May : 2,450,200
-III. Number of Recoveries by 14th May : 1,625,422
-IV. Number of Deaths by 14th May : 367,525
+- I. This model predicted 4,454,258 confirmed cases by May 14, 2020.
+- II. Number of Active cases by 14th May : 2,450,200
+- III. Number of Recoveries by 14th May : 1,625,422
+- IV. Number of Deaths by 14th May : 367,525
 
 ## Facebook's Prophet Library
 This is specifically designed to forecast the daily business data sets that are common at Facebook, Inc. 
@@ -151,10 +151,10 @@ The ds (datestamp) column should be of a format expected by Pandas, ideally YYYY
 4. Root Mean Squared error (RMSE) : 25860.77
 5. R2 value : 0.999
 
-I. This model predicted 4,402,222 confirmed cases by May 14, 2020.
-II. Number of Active cases by 14th May : 2,673,383
-III. Number of Recoveries by 14th May : 1,398,758
-IV. Number of Deaths by 14th May : 328,023
+- I. This model predicted 4,402,222 confirmed cases by May 14, 2020.
+- II. Number of Active cases by 14th May : 2,673,383
+- III. Number of Recoveries by 14th May : 1,398,758
+- IV. Number of Deaths by 14th May : 328,023
 
 
 ### Summary
