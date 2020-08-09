@@ -58,15 +58,16 @@ Since we are predicting the number of worldwide cases, pandas groupby() function
 7. The US has the greatest number of confirmed cases. The UK has an insignificant number of recoveries. In Turkey, there is an insignificant number of deaths.
 
 ## Time Series Analysis
-  ### Trend
+
+### Trend
   A trend exists when there is a long-term increase or decrease in the data. It does not have to be linear. Sometimes we will refer to a trend as “changing direction”, when it might go from an increasing trend to a decreasing trend. 
-  #### Types of Trend patterns
-  Positive Trend – It has a positive slope.
-  Negative Trend – It has a negative slope.
-  No Trend – It is just a horizontal line with zero slope.
-  ### Seasonal
+#### Types of Trend patterns
+ - Positive Trend – It has a positive slope.
+ - Negative Trend – It has a negative slope.
+ - No Trend – It is just a horizontal line with zero slope.
+### Seasonal
   A seasonal pattern occurs when a time series is affected by seasonal factors such as the time of the year or the day of the week. Seasonality is always of a fixed and known frequency. 
-  ### Cyclic
+### Cyclic
   A cycle occurs when the data exhibit rises and falls that are not of a fixed frequency. These fluctuations are usually due to economic conditions, and are often related to the “business cycle”. The duration of these fluctuations is usually at least 2 years.
 
 ### Forecasting Models which were used in this case study:
