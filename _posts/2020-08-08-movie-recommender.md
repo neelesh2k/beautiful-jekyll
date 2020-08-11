@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Movie Recommender based on User Rating
-cover-img: /assets/img/movie-recommender.jpg
-thumbnail-img: /assets/img/movie-recommender.jpg
+cover-img: /assets/img/movie-recommendation.jpg
+thumbnail-img: /assets/img/movie-recommendation.jpg
 ---
 
 ### Overview :
