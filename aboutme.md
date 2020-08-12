@@ -55,7 +55,21 @@ India**.
 -   Statistical Quality Control
 
 * * * * *
+**Work Experience**
+-------------------
 
+**
+
+**[GITAA Pvt. Ltd,](#)** April 2020 - August 2020
+---------------------------------------------
+
+#### **Data Science Intern**
+- Built Machine Learning and Deep Learning Case Studies.
+- Worked on various cutting-edge technologies including Tensorflow, Keras, Pyunicorn, PyRQA. 
+- Participated in regular meetings and sprint plannings that gave an insider’s perspective of a Data Science team.
+
+
+* * * * *
 #### Online Coursework
 
 
