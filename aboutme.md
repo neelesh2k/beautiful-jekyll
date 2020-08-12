@@ -27,6 +27,7 @@ courses to learn about Machine Learning and Deep Learning offered by
 University of Michigan, Stanford University and Deeplearning.ai. All
 these courses broadened my skill set significantly and kindled my
 interest to pursue analytics as a career. \
+\
  Scroll Down to know more!
 
 **Education**
@@ -36,12 +37,10 @@ interest to pursue analytics as a career. \
 
 #### Bachelor of Engineering
 
-Currently pursuing my 6th semester in Industrial Engineering at the
+Currently pursuing my 7th semester in Industrial Engineering at the
 [College of Engineering Guindy](https://ceg.annauniv.edu/) which is
 recognised as an institute of national importance by the **Government of
 India**. 
-
-* * * * *
 
 **Relevant coursework:**
 
@@ -55,9 +54,26 @@ India**.
 -   Database Essentials
 -   Statistical Quality Control
 
+* * * * *
+
 #### Online Coursework
 
 
+**Deep Learning Specialization offered by deeplearning.ai :**
+
+-   **[Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/JX88VD7YHNY2)**
+-   **[Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://www.coursera.org/account/accomplishments/certificate/6E77TG9T5PB8)**
+-   **[Convolutional Neural Networks](https://www.coursera.org/account/accomplishments/certificate/DN5EWKZBHM58)**
+-   **[Structuring Machine Learning Projects](https://www.coursera.org/account/accomplishments/certificate/TZCP4ML4B7MD)**    
+-   **[Sequence Models](https://www.coursera.org/account/accomplishments/certificate/NN2Q3BNZM73L)** 
+
+
+**TensorFlow in Practice Specialization offered by deeplearning.ai :**
+
+-   **[Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/AUS6H5CLVAQA)**
+-   **[Convolutional Neural Networks in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/6ZG92JVD3Y84)**
+-   **[Natural Language Processing in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/67WM2GYVDJLW)**
+-   **[Sequences, Time Series and Prediction](https://www.coursera.org/account/accomplishments/certificate/Q5WQXMC52768)**   
 
 **Applied Data Science with Python Specialization offered by University
 of Michigan :**
@@ -67,25 +83,12 @@ of Michigan :**
 -   [Applied Machine Learning in
     Python](https://www.coursera.org/account/accomplishments/verify/QWQ7LR4HKT8V)
 
-* * * * *
-
-**Deep Learning Specialization offered by deeplearning.ai :**
-
--   **[Neural Networks and Deep
-    Learning](https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome)**
-    (Ongoing Course)
--   **[Introduction to
-    TensorFlow](https://www.coursera.org/learn/introduction-tensorflow)**
-    (Ongoing Course)
-
-* * * * *
 
 **Applied Data Science Specialization offered by IBM :**
 
 -   [**Python for Data Science and
     AI**](https://coursera.org/share/072d95755cd7aa3b02349f81c0a712ca)
 
-* * * * *
 
 **Udemy Courses :**
 
@@ -98,4 +101,4 @@ of Michigan :**
 -   [**Python
     Bootcamp**](https://www.udemy.com/certificate/UC-YR4KI7TP/)
 
-
+* * * * *
