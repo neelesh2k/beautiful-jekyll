@@ -30,20 +30,14 @@ interest to pursue analytics as a career. \
 \
  Scroll Down to know more!
 
-**Education**
--------------
-
-* * * * *
-
-#### Bachelor of Engineering
-
+## Education
+### Bachelor of Engineering
 Currently pursuing my 7th semester in Industrial Engineering at the
 [College of Engineering Guindy](https://ceg.annauniv.edu/) which is
 recognised as an institute of national importance by the **Government of
 India**. 
 
 **Relevant coursework:**
-
 -   Probability and Statistics
 -   Python Programming
 -   Applied Multivariate and Statistical Analysis
@@ -52,37 +46,27 @@ India**.
 -   Differential and Integral Calculus
 -   Operations Research
 -   Database Essentials
--   Statistical Quality Control
+-   Design of Experiments
 
-* * * * *
-**Professional Experience**
--------------------
-
+## Professional Experience
+### **Data Science Intern** 
 **GITAA Pvt. Ltd,** 
-April 2020 - August 2020
----------------------------------------------
-
-### **Data Science Intern**
+  April 2020 - August 2020
 - Built Machine Learning and Deep Learning Case Studies.
 - Worked on various cutting-edge technologies including Tensorflow, Keras, Pyunicorn, PyRQA. 
 - Participated in regular meetings and sprint plannings that gave an insider’s perspective of a Data Science team.
 
 
-* * * * *
+
 ## Online Coursework
-
-
 **Deep Learning Specialization offered by deeplearning.ai :**
-
 -   **[Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/JX88VD7YHNY2)**
 -   **[Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://www.coursera.org/account/accomplishments/certificate/6E77TG9T5PB8)**
 -   **[Convolutional Neural Networks](https://www.coursera.org/account/accomplishments/certificate/DN5EWKZBHM58)**
 -   **[Structuring Machine Learning Projects](https://www.coursera.org/account/accomplishments/certificate/TZCP4ML4B7MD)**    
 -   **[Sequence Models](https://www.coursera.org/account/accomplishments/certificate/NN2Q3BNZM73L)** 
 
-
 **TensorFlow in Practice Specialization offered by deeplearning.ai :**
-
 -   **[Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/AUS6H5CLVAQA)**
 -   **[Convolutional Neural Networks in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/6ZG92JVD3Y84)**
 -   **[Natural Language Processing in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/67WM2GYVDJLW)**
@@ -90,21 +74,16 @@ April 2020 - August 2020
 
 **Applied Data Science with Python Specialization offered by University
 of Michigan :**
-
--   [Introduction to Data Science in
-    Python](https://www.coursera.org/account/accomplishments/verify/LBR6BKFHJE7S)
--   [Applied Machine Learning in
-    Python](https://www.coursera.org/account/accomplishments/verify/QWQ7LR4HKT8V)
-
+-   **[Introduction to Data Science in
+    Python](https://www.coursera.org/account/accomplishments/verify/LBR6BKFHJE7S)**
+-   **[Applied Machine Learning in
+    Python](https://www.coursera.org/account/accomplishments/verify/QWQ7LR4HKT8V)**
 
 **Applied Data Science Specialization offered by IBM :**
-
 -   [**Python for Data Science and
     AI**](https://coursera.org/share/072d95755cd7aa3b02349f81c0a712ca)
 
-
 **Udemy Courses :**
-
 -   [**Data Science and Machine Learning with
     Python**](https://www.udemy.com/certificate/UC-806E1H4B/)
 -   [**Data Science and Machine Learning with
@@ -113,5 +92,3 @@ of Michigan :**
     Development**](https://www.udemy.com/certificate/UC-BPZ8XC8V/)
 -   [**Python
     Bootcamp**](https://www.udemy.com/certificate/UC-YR4KI7TP/)
-
-* * * * *
