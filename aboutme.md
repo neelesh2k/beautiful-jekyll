@@ -2,9 +2,6 @@
 layout: page
 ---
 
-**About Me**
-------------
-
 * * * * *
 
 I am a final year student, pursuing Bachelor of Engineering (B.E)
