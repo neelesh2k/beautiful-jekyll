@@ -1,16 +1,13 @@
 ---
 layout: page
 ---
-Hey! I'm Neelesh, and am currently doing my final year at College of Engineering Guindy majoring in Industrial Engineering.  
-
-Data Science Intern   .  Front-End Developer  .  Graphic Designer   .  Tech Geek  .  Sport Aficionado 
 
 **About Me**
 ------------
 
 * * * * *
 
-I am a pre-final year student, pursuing Bachelor of Engineering (B.E)
+I am a final year student, pursuing Bachelor of Engineering (B.E)
 focused in Industrial Engineering at the College of Engineering Guindy,
 Anna University. I am an aspiring Data scientist, a front-end web
 developer, a graphic designer and a blogger. \
@@ -40,12 +37,12 @@ interest to pursue analytics as a career. \
 
 * * * * *
 
-#### [Bachelor of Engineering](#collapseTwo) {.panel-title}
+#### [Bachelor of Engineering]
 
 Currently pursuing my 6th semester in Industrial Engineering at the
 [College of Engineering Guindy](https://ceg.annauniv.edu/) which is
 recognised as an institute of national importance by the **Government of
-India**. \
+India**. 
 
 * * * * *
 
@@ -61,7 +58,9 @@ India**. \
 -   Database Essentials
 -   Statistical Quality Control
 
-#### [Online Coursework](#collapseFive) {.panel-title}
+#### [Online Coursework]
+
+
 
 **Applied Data Science with Python Specialization offered by University
 of Michigan :**
