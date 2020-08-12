@@ -34,7 +34,7 @@ interest to pursue analytics as a career. \
 
 * * * * *
 
-#### [Bachelor of Engineering]
+#### Bachelor of Engineering
 
 Currently pursuing my 6th semester in Industrial Engineering at the
 [College of Engineering Guindy](https://ceg.annauniv.edu/) which is
@@ -55,7 +55,7 @@ India**.
 -   Database Essentials
 -   Statistical Quality Control
 
-#### [Online Coursework]
+#### Online Coursework
 
 
 
