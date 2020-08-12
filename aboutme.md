@@ -56,6 +56,21 @@ India**.
 - Worked on various cutting-edge technologies including Tensorflow, Keras, Pyunicorn, PyRQA. 
 - Participated in regular meetings and sprint plannings that gave an insider’s perspective of a Data Science team.
 
+## Positions of Responsibility
+### **Deputy Director of Design**
+  April 2019 - July 2020 
+- The Guindy Times is the official college magazine of CEG, ACT and SAP -
+the three main campuses of Anna University with a monthly viewership of
+3000+. \
+- Assisted the president to lead the club of 150 students and mentored
+the junior designers in designing the bi-monthly print issue.
+
+### **Joint Secretary**
+July 2018 - April 2019
+- Elected as the Joint Secretary for the Academic year '2018-2019' and led a class of 60 in administering the ‘Society of Industrial Engineers’. \
+- Planned and executed 10+ events in Indcon'19,  a National level technical symposium with over 500 participants
+- Brought in local sponsors and provided marketing support for the events.
+
 
 
 ## Online Coursework
