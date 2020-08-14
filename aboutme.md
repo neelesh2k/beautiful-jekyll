@@ -28,8 +28,6 @@ University of Michigan, Stanford University and Deeplearning.ai. All
 these courses broadened my skill set significantly and kindled my
 interest to pursue analytics as a career. \
 \
- Scroll Down to know more!
-
 ## Education
 **Bachelor of Engineering**
 Currently pursuing my 7th semester in Industrial Engineering at the
