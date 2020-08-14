@@ -4,6 +4,7 @@ title: Pneumonia Detection On X-Rays Using Deep Neural Networks
 cover-img: /assets/img/pneumonia-detection.jpg
 thumbnail-img: /assets/img/pneumonia-detection.jpg
 ---
+In deep learning, a convolutional neural network is a class of deep neural networks, most commonly applied to analyzing visual imagery. They are also known as shift invariant or space invariant artificial neural networks, based on their shared-weights architecture and translation invariance characteristics.
 
 Building a CNN mainly involves 4 steps:
 
