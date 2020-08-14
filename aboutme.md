@@ -26,7 +26,7 @@ several machine learning algorithms. I have also enrolled in online
 courses to learn about Machine Learning and Deep Learning offered by
 University of Michigan, Stanford University and Deeplearning.ai. All
 these courses broadened my skill set significantly and kindled my
-interest to pursue analytics as a career. \
+interest to pursue analytics as a career. 
 
 ## Education
 **Bachelor of Engineering**
