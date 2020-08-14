@@ -2,8 +2,6 @@
 layout: page
 ---
 
-* * * * *
-
 I am a final year student, pursuing Bachelor of Engineering (B.E)
 focused in Industrial Engineering at the College of Engineering Guindy,
 Anna University. I am an aspiring Data scientist, a front-end web
@@ -31,12 +29,11 @@ interest to pursue analytics as a career. \
  Scroll Down to know more!
 
 ## Education
-### Bachelor of Engineering
+**Bachelor of Engineering**
 Currently pursuing my 7th semester in Industrial Engineering at the
 [College of Engineering Guindy](https://ceg.annauniv.edu/) which is
 recognised as an institute of national importance by the **Government of
 India**. 
-
 **Relevant coursework:**
 -   Probability and Statistics
 -   Python Programming
@@ -49,7 +46,7 @@ India**.
 -   Design of Experiments
 
 ## Professional Experience
-### **Data Science Intern** 
+**Data Science Intern** 
 **GITAA Pvt. Ltd,** 
   April 2020 - August 2020
 - Built Machine Learning and Deep Learning Case Studies.
@@ -57,17 +54,17 @@ India**.
 - Participated in regular meetings and sprint plannings that gave an insider’s perspective of a Data Science team.
 
 ## Positions of Responsibility
-### **Deputy Director of Design**
+**Deputy Director of Design** 
   April 2019 - July 2020 
 - The Guindy Times is the official college magazine of CEG, ACT and SAP -
 the three main campuses of Anna University with a monthly viewership of
-3000+. \
+3000+. 
 - Assisted the president to lead the club of 150 students and mentored
 the junior designers in designing the bi-monthly print issue.
 
-### **Joint Secretary**
+**Joint Secretary**
 July 2018 - April 2019
-- Elected as the Joint Secretary for the Academic year '2018-2019' and led a class of 60 in administering the ‘Society of Industrial Engineers’. \
+- Elected as the Joint Secretary for the Academic year '2018-2019' and led a class of 60 in administering the ‘Society of Industrial Engineers’. 
 - Planned and executed 10+ events in Indcon'19,  a National level technical symposium with over 500 participants
 - Brought in local sponsors and provided marketing support for the events.
 
@@ -75,35 +72,31 @@ July 2018 - April 2019
 
 ## Online Coursework
 **Deep Learning Specialization offered by deeplearning.ai :**
--   **[Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/JX88VD7YHNY2)**
--   **[Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://www.coursera.org/account/accomplishments/certificate/6E77TG9T5PB8)**
--   **[Convolutional Neural Networks](https://www.coursera.org/account/accomplishments/certificate/DN5EWKZBHM58)**
--   **[Structuring Machine Learning Projects](https://www.coursera.org/account/accomplishments/certificate/TZCP4ML4B7MD)**    
--   **[Sequence Models](https://www.coursera.org/account/accomplishments/certificate/NN2Q3BNZM73L)** 
-
+-   [Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/JX88VD7YHNY2)
+-   [Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://www.coursera.org/account/accomplishments/certificate/6E77TG9T5PB8)
+-   [Convolutional Neural Networks](https://www.coursera.org/account/accomplishments/certificate/DN5EWKZBHM58)
+-   [Structuring Machine Learning Projects](https://www.coursera.org/account/accomplishments/certificate/TZCP4ML4B7MD)   
+-   [Sequence Models](https://www.coursera.org/account/accomplishments/certificate/NN2Q3BNZM73L) 
 **TensorFlow in Practice Specialization offered by deeplearning.ai :**
--   **[Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/AUS6H5CLVAQA)**
--   **[Convolutional Neural Networks in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/6ZG92JVD3Y84)**
--   **[Natural Language Processing in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/67WM2GYVDJLW)**
--   **[Sequences, Time Series and Prediction](https://www.coursera.org/account/accomplishments/certificate/Q5WQXMC52768)**   
-
+-   [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/AUS6H5CLVAQA)
+-   [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/6ZG92JVD3Y84)
+-   [Natural Language Processing in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/67WM2GYVDJLW)
+-   [Sequences, Time Series and Prediction](https://www.coursera.org/account/accomplishments/certificate/Q5WQXMC52768) 
 **Applied Data Science with Python Specialization offered by University
 of Michigan :**
--   **[Introduction to Data Science in
-    Python](https://www.coursera.org/account/accomplishments/verify/LBR6BKFHJE7S)**
--   **[Applied Machine Learning in
-    Python](https://www.coursera.org/account/accomplishments/verify/QWQ7LR4HKT8V)**
-
+-   [Introduction to Data Science in
+    Python](https://www.coursera.org/account/accomplishments/verify/LBR6BKFHJE7S)
+-   [Applied Machine Learning in
+    Python](https://www.coursera.org/account/accomplishments/verify/QWQ7LR4HKT8V)
 **Applied Data Science Specialization offered by IBM :**
--   [**Python for Data Science and
-    AI**](https://coursera.org/share/072d95755cd7aa3b02349f81c0a712ca)
-
+-   [Python for Data Science and
+    AI](https://coursera.org/share/072d95755cd7aa3b02349f81c0a712ca)
 **Udemy Courses :**
--   [**Data Science and Machine Learning with
-    Python**](https://www.udemy.com/certificate/UC-806E1H4B/)
--   [**Data Science and Machine Learning with
-    R**](https://www.udemy.com/certificate/UC-ELRTAM1Q/)
--   [**Django Full Stack Web
-    Development**](https://www.udemy.com/certificate/UC-BPZ8XC8V/)
--   [**Python
-    Bootcamp**](https://www.udemy.com/certificate/UC-YR4KI7TP/)
+-   [Data Science and Machine Learning with
+    Python](https://www.udemy.com/certificate/UC-806E1H4B/)
+-   [Data Science and Machine Learning with
+    R](https://www.udemy.com/certificate/UC-ELRTAM1Q/)
+-   [Django Full Stack Web
+    Development](https://www.udemy.com/certificate/UC-BPZ8XC8V/)
+-   [Python
+    Bootcamp](https://www.udemy.com/certificate/UC-YR4KI7TP/)
