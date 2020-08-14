@@ -7,6 +7,8 @@ focused in Industrial Engineering at the College of Engineering Guindy,
 Anna University. I am an aspiring Data scientist, a front-end web
 developer, a graphic designer and a blogger. \
  \
+ I worked as a Data Science Intern from March 2020 to August 2020 at GITAA Pvt. Ltd. GITAA an IITM incubated company, is founded by experienced academicians from Indian Institute of Technology, Madras, who bring in a wealth of expertise and knowledge in data sciences. During my internship period, I worked on developing several case studies. These include case studies on Time Series Forecasting, Hand Gesture Recognition, Deep Learning, Sentiment Analysis, and Recommender Systems. \
+ \
  I am a highly analytical student with a stark Mathematics background
 and experience in Python, Machine learning and Statistics. I gained
 practical experience with Data Science by proactively working with
@@ -34,6 +36,7 @@ Currently pursuing my 7th semester in Industrial Engineering at the
 [College of Engineering Guindy](https://ceg.annauniv.edu/) which is
 recognised as an institute of national importance by the **Government of
 India**. 
+
 **Relevant coursework:**
 -   Probability and Statistics
 -   Python Programming
@@ -54,15 +57,15 @@ India**.
 - Participated in regular meetings and sprint plannings that gave an insider’s perspective of a Data Science team.
 
 ## Positions of Responsibility
-####  Deputy Director of Design 
-  April 2019 - July 2020 
+**Deputy Director of Design** 
+April 2019 - July 2020 
 - The Guindy Times is the official college magazine of CEG, ACT and SAP -
 the three main campuses of Anna University with a monthly viewership of
 3000+. 
 - Assisted the president to lead the club of 150 students and mentored
 the junior designers in designing the bi-monthly print issue.
 
-####  Joint Secretary
+**Joint Secretary**
 July 2018 - April 2019
 - Elected as the Joint Secretary for the Academic year '2018-2019' and led a class of 60 in administering the ‘Society of Industrial Engineers’. 
 - Planned and executed 10+ events in Indcon'19,  a National level technical symposium with over 500 participants
