@@ -41,8 +41,8 @@ India**.
 -   Data Analytics Laboratory
 -   Matrices and Vector Algebra
 -   Differential and Integral Calculus
--   Operations Research
--   Database Essentials
+-   Operations Research - I & II
+-   Information Technology Essentials
 -   Design of Experiments
 
 ## Professional Experience
@@ -66,6 +66,17 @@ July 2018 - April 2019
 - Elected as the Joint Secretary for the Academic year '2018-2019' and led a class of 60 in administering the ‘Society of Industrial Engineers’. 
 - Planned and executed 10+ events in Indcon'19,  a National level technical symposium with over 500 participants
 - Brought in local sponsors and provided marketing support for the events.
+
+## Accomplishments
+- Passed the HackerRank’s Python (Basic) and Problem Solving Skill Certification Test. 
+- Secured 3rd among 300+ participants in ‘CEO in the House’, an entrepreneurship event in Enantra 2020.
+- Won the 1st prize in ‘I-Quiz’, a quiz competition in Indcon 2020.
+- Won the 1st prize in ‘Engineer’s Vision’, a technical event in Indcon 2020.
+- Underwent intensive training about commercial vehicles at Ashok Leyland during May 2019.
+- Organized flagship events during Techofes 2019, South India’s oldest cultural festival.
+- Designed and developed a webpage which calculates the Grade-Point-Average (GPA) for college students.
+- Crossed over 500k content views in Quora.
+- Underwent a year of fitness training as a part of National Sports Organization.
 
 ## Online Coursework
 **Deep Learning Specialization offered by deeplearning.ai :**
