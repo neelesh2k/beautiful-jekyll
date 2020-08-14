@@ -27,7 +27,7 @@ courses to learn about Machine Learning and Deep Learning offered by
 University of Michigan, Stanford University and Deeplearning.ai. All
 these courses broadened my skill set significantly and kindled my
 interest to pursue analytics as a career. \
-\
+
 ## Education
 **Bachelor of Engineering**
 Currently pursuing my 7th semester in Industrial Engineering at the
