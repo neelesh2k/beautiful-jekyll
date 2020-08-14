@@ -77,20 +77,24 @@ July 2018 - April 2019
 -   [Convolutional Neural Networks](https://www.coursera.org/account/accomplishments/certificate/DN5EWKZBHM58)
 -   [Structuring Machine Learning Projects](https://www.coursera.org/account/accomplishments/certificate/TZCP4ML4B7MD)   
 -   [Sequence Models](https://www.coursera.org/account/accomplishments/certificate/NN2Q3BNZM73L) 
+
 **TensorFlow in Practice Specialization offered by deeplearning.ai :**
 -   [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/AUS6H5CLVAQA)
 -   [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/6ZG92JVD3Y84)
 -   [Natural Language Processing in TensorFlow](https://www.coursera.org/account/accomplishments/certificate/67WM2GYVDJLW)
 -   [Sequences, Time Series and Prediction](https://www.coursera.org/account/accomplishments/certificate/Q5WQXMC52768) 
+
 **Applied Data Science with Python Specialization offered by University
 of Michigan :**
 -   [Introduction to Data Science in
     Python](https://www.coursera.org/account/accomplishments/verify/LBR6BKFHJE7S)
 -   [Applied Machine Learning in
     Python](https://www.coursera.org/account/accomplishments/verify/QWQ7LR4HKT8V)
+
 **Applied Data Science Specialization offered by IBM :**
 -   [Python for Data Science and
     AI](https://coursera.org/share/072d95755cd7aa3b02349f81c0a712ca)
+
 **Udemy Courses :**
 -   [Data Science and Machine Learning with
     Python](https://www.udemy.com/certificate/UC-806E1H4B/)
