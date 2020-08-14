@@ -1,90 +1,72 @@
 ---
 layout: post
 title: Pneumonia Detection On X-Rays Using Deep Neural Networks
-cover-img: /assets/img/apple-watch.jpg
-thumbnail-img: /assets/img/apple-watch.jpg
+cover-img: /assets/img/pneumonia-detection.jpg
+thumbnail-img: /assets/img/pneumonia-detection.jpg
 ---
-### Overview
-  A proof of concept has been developed to identify and recognize a hand-gesture using a wearable inertial measurement unit (IMU). The SmartWatch Gestures Dataset and    UCI&#39;s ADL Dataset have been used for this POC. Recurrence rate, Transitivity, and Global clustering were extracted from the accelerometer data. Support Vector Machines and Decision Tree algorithms were built to classify the two classes (gestures and non-gestures).
+
+Building a CNN mainly involves 4 steps:
+**1. Convolution**
+When we as humans we see the world and process everything around us, we don't look at every single pixel of our surroundings, we just pick up the important features. This is exactly what this step does. It reduces the size of the image and keeps only the important features of it which would be neccessary to classify it. We then apply the rectifier function. This is to increase non- linearity in the image. Why do we want to increase non-linearity? The purpose of applying the rectifier function is to increase the non-linearity in our images. The reason we want to do that is that images are naturally non-linear. When you look at any image, you'll find it contains a lot of non-linear features (e.g. the transition between pixels, the borders, the colors, etc.). The rectifier serves to break up the linearity even further in order to make up for the linearity that we might impose an image when we put it through the convolution operation.
+
+**2. Pooling**
+A pooling layer is another building block of a CNN. Its function is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation in the network. Pooling layer operates on each feature map independently. The most common approach used in pooling is max pooling which is what we'll also be doing. Pooling not only helps in dimensionality reduction but also induces spatial invariance. We have to make sure that our neural network has a property called spatial invariance meaning that it doesn't have to care if the features are a bit tilted, if the features are a bit closer of features or a bit further apart relative to relative to each other. So if the feature itself is a bit distorted our neural network has to have some level of flexibility to be able to still find that feature. And that is what pooling is all about.
+
+**3. Flattening**
+After finishing the previous two steps, we're supposed to have a pooled feature map by now. As the name of this step implies, we are literally going to flatten our pooled feature map. What happens after the flattening step is that you end up with a long vector of input data that you then pass through the artificial neural network to have it processed further.
+
+**4. Full connection**
+Finally, in Convolutional neural networks we're going to be using fully connected layers. Basically that vector of outputs that we have after the flattening is passed as the input to this.
+
+These steps will be explained with more detail with respect to the case study below.
+Let's go through the above code step by step
+
+**Step 1 : Convolution**
+As explained above, step 1 is Convolution. Hence we've added a convolution layer using Conv2D. 2D because it's an image.
+Parameters:
+32: refers to the number of feature detectors we want. It's a common practice to start of with 32 hence we've done the same.
+(3,3): is the dimensions of the feature detector. 3x3 is a common dimension to use.
+input_shape = (64,64,3): means that the input image our CNN is going to be taking is of a 64x64 resolution and 3 stands for RGB, which is a color image
+activation = relu: activation function to make sure that we don't have any negative pixel values in our feature maps. We need to remove these negative pixels in order to have non-linearity in our convolutional neural network. Because of course classifying images is a nonlinear problem and so this rectify activation function is to make sure we get this nonlinearity.
+
+**Step 2: Pooling**
+This step is easy it just consists of reducing the size of your feature maps. (2, 2) will halve the input in both spatial dimension.
+Why do we apply this step?
+It's because we want to reduce the number of nodes we'll get in the next step, i.e, the flattening step and then the full connection step because in these next steps basically what we'll get is all the cells of our future maps flattened into one huge one dimensional vector. So if we don't reduce the size of these feature maps well we'll get too large vector and therefore our model will be highly compute intensive. And we want to avoid that so we were playing this Max pulling step to reduce the size of our future maps and therefore reduce the number of nodes in the future fully connected layers. And that's why this will reduce the complexity and the time execution.
+Parameters:
+pool_size = (2, 2) : size of the window of maxpooling. 2x2 is what is take in general when we apply Max pooling on our feature map.
+
+To keep it simple, we're just adding three convolution layers so that we can reduce the complexity and time.
+
+**Step 3: Flattening**
+What we are basically doing here is taking the 2-D array, i.e pooled image pixels and converting them to a one-dimensional single vector. This would be the input to our fully connected layer.
+
+**Step 4: Full Connection**
+And this one final step that we have to do is add the fully connected layers.What they basically do is take out feature map of the image and make predictions about it. We got the set of nodes from the flattening step and these nodes will act as an input layer to these fully-connected layers. Dense is the function to add a fully connected layer, ‘units’ is where we define the number of nodes that should be present in this hidden layer.
+The final fully connected layer has units = 1 as this is a binary classification problem: pneumonia or not. Hence the activation function is sigmoid. If you have more than one class like maybe predicting whether it's dogs, cats or birds, you will have to use softmax instead.
 
 
-### Objective
-  To control an Android device using hand-gestures.
+## **Image augmentation**
+It basically consists of pre-processing your images to prevent overfitting. The idea is to alter the training data with small transformations to reproduce the variations.
+Keras supplies us ready to use image augmentation code which you can find here: https://keras.io/api/preprocessing/image/ . You can find it under Example of using .flow_from_directory(directory)
+Using the code from keras documentaion, we just altered the paramters so that it fits our model. All we changed is the directory to where our images are placed and target size as ours is 64x64.
 
 
-### Workflow
-1. The timestamp and corresponding x,y,z values of the accelerometer were recorded using a wearable device.
-2. The SmartWatch dataset was loaded (Gestures).
-3. A recurrence matrix was computed and a **recurrence plot** was visualized.
-4. The **recurrence rate** was extracted from the recurrence plot.
-5. A **recurrence network** was built by identifying the recurrence matrix as the adjacency matrix.
-6. **Transitivity** values were extracted from the recurrence network.
-7. The same procedure was followed for extracting the features from the ADL dataset (Non-gestures).
-8. Recurrence rate, Transitivity, global clustering values were taken as the features.
-9. A binary classification model is built using **Support vector machines** and the **Decision Tree algorithm**.
-10. It was found that the decision tree performed better with an accuracy of **98%**.
+Finally, we can compile our cnn. loss = 'binary_crossentropy' because we have a binary outcome. We're using the most common metric, accuracy.
 
-### Introduction
-  The hand-gesture recognition systems can be classified based on the type of sensor they employ. The camera-based systems have a relatively high computational cost. The performance of these systems is sensitive to the background conditions. The sensor-based systems which are worn on the wrist, employ accelerometers. They have a relatively smaller cost, and are not sensitive to the environmental conditions (e.g. light or geometry conditions). With the advancement of micro-electromechanical technologies, the size and energy efficiency of these sensors has been enhanced.
-The dataset contains the x, y, z values of the accelerometer recorded at different time intervals. The y-axis value is considered as the time series data for feature engineering.
+- True Positive: Predicting positive and it turns out to be true.
+- True Negative: Predicting negative but it turns out to be true.
+- False Positive: (Type 1 Error) Predicting positive but it turns out to be false.
+- False Negative: (Type 2 Error) Predicting negative and it turns out to be false.
 
-### Recurrence &amp; Recurrence Plot
-  Recurrence can be defined as a new occurrence of something that happened or **appeared before**. Recurrence is a fundamental property of dynamical systems, which can be exploited to characterize the system&#39;s behavior in phase space.
-In 1987, Eckmann et al. introduced the method of recurrence plots (RPs) to visualize the recurrences of dynamical systems. A recurrence plot is the graphical representation of a **binary symmetric square matrix** that encodes the times when two states are in close proximity (i.e. neighbors in phase space). If the states of the system are **similar** at the time _i_ and _j_, this is indicated by a **one** in the recurrence matrix. If the states are **different** , the corresponding entry in the matrix will be **zero**.
-Based on such a recurrence matrix, a large and diverse amount of information on the dynamics of the system can be extracted and statistically quantified (using recurrence quantification analysis, dynamical invariants, etc.)
-A recurrence plot is a representation of recurrent states of a dynamical system in its m-dimensional phase space. A phase space trajectory can be reconstructed for a time series by time-delay embedding.
+**Finding test data accuracy :**
+- Actual Normal, Predicted normal : 184
+- Actual Normal, Predicted Pneumonia : 50
+- Actual Pneumonia , Predicted Normal : 7
+- Actual Pneumonia, Predicted Pneumonia : 383
+- Number of correct predictions in test_set : 184 + 383 = 567
+- Number of incorrect predictions in test_set : 50 + 7 = 57
+- Test data accuracy : (567/624)*100 = 90.87%
 
-### Recurrence Rate
-  To go beyond the visual impression yielded by RPs, several measures of complexity that quantify the small scale structures in RPs and are known as recurrence quantification analysis (RQA). The simplest measure of the RQA is the recurrence rate (RR) or **percent recurrences**. It is a measure of the density of recurrence points in the RP.
-For example, if N = 14 and the number of ones (recurrence) = 18, the RR is 0.092.
-
-### Recurrence Network
-  Complex network statistics is helpful to characterize the local and global properties of a network. We obtain additional information from the recurrence plots, which can be used for characterizing the dynamics of the underlying process.
-
-
-### Adjacency matrix in networks
-  In graph theory and computer science, an **adjacency matrix** is a square **matrix** used to represent a finite graph. The elements of the **matrix** indicate whether pairs of vertices are adjacent or not in the graph. In the special case of a finite simple graph, the **adjacency matrix** is a (0,1)- **matrix** with zeros on its diagonal.
-The basis of complex network analysis is the adjacency matrix, representing the links between the nodes of the network. Like the recurrence matrix, the adjacency matrix is also square, binary, and symmetric (in the case of an unweighted and undirected network). A recurrence matrix represents **neighbors in phase space** and an adjacency matrix represents **links in a network**.
-Let us consider the phase space vectors as **nodes** of a network and identify recurrences with **links**. An undirected and unweighted network is represented by the binary adjacency matrix A, where a connection between nodes i and j is marked as Ai,j = 1. Excluding self-loops, we obtain A from the RP by removing the identity matrix,
-**Ai,j = Ri,j - δi,j ,** where **δi,j** is the Kronecker delta.
-
-### Transitivity (or) Local clustering coefficient
-  The clustering coefficient of the vertex C characterizes the density of connections in the direct neighborhood of this vertex in terms of the density of connections between all vertices that are incident with v. High clustering coefficients reveal a specific type of structure in a network, which is related to the cliquishness of a vertex.
-
-In many networks, it is found that if vertex A is connected to vertex B and vertex B to vertex C, then there is a heightened probability that vertex A will also be connected to vertex C. In the language of social networks, the friend of your friend is likely also to be your friend. In terms of network topology, transitivity means the presence of a heightened number of triangles in the network—sets of three vertices each of which is connected to each of the others. It can be quantified by defining a clustering coefficient C.
-
-## Binary Classification
-  A classifier is a machine learning model that is used to discriminate different objects based on certain features.
-
-### Train-Test-Split
-  X (Features) = &#39;Recurrence Rate&#39;, &#39;Transitivity&#39;, &#39;Global clustering&#39; 
-
-  Y (Target variable) = &#39;Gesture&#39; 
-
-  Train-size = 80% of 6502 samples
-
-  Test-size = 20% of 6502 samples
-
-### Support Vector Machine Algorithm
-  The Support vector machine (SVM) algorithm can be used for both regression, and classification tasks. Hyperplanes are decision boundaries, and our objective is to find a plane that has the maximum margin, i.e the maximum distance between data points of both classes. In SVM, we take the output of the linear function and if that output is greater than 1, we identify it with one class and if the output is -1, we identify is with another class.
-
-### Results:
-- True Positives: 626
-- True Negatives: 644
-- False Positives: 31
-- False Negatives : 0
-- Precision = 0.98
-- Recall = 0.98
-- F1 score = 0.98
-
-### Decision Tree Algorithm
-  The decision tree algorithm falls under the category of supervised learning. They can be used to solve both regression and classification problems. The decision tree uses the tree representation to solve the problem in which each leaf node corresponds to a class label and attributes are represented on the internal node of the tree. We can represent any Boolean function on discrete attributes using the decision tree.
-
-### Results:
-- True Positives: 657
-- True Negatives: 641
-- False Positives: 0
-- False Negatives: 3
-- Precision = 1.00
-- Recall = 1.00
-- F1 score = 1.00
+**Inference :**
+Generally, it is acceptable to have more True Negatives than False Positives in medical diagnosis case studies. In this model, only 7 out of 624 (1%) pneumonia x-ray images are predicted normal. Our goal is to reduce the False Positives as much as possible.
