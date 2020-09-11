@@ -5,24 +5,23 @@ cover-img: /assets/img/apple-watch.jpg
 thumbnail-img: /assets/img/apple-watch.jpg
 ---
 ### Overview
-  A proof of concept has been developed to identify and recognize a hand-gesture using a wearable inertial measurement unit (IMU). The SmartWatch Gestures Dataset and    UCI&#39;s ADL Dataset have been used for this POC. Recurrence rate, Transitivity, and Global clustering were extracted from the accelerometer data. Support Vector Machines and Decision Tree algorithms were built to classify the two classes (gestures and non-gestures).
-
+  A proof of concept has been developed to identify and recognize a hand-gesture using a wearable inertial measurement unit (IMU). The SmartWatch Gestures Dataset and    UCI&#39;s ADL Dataset have been used for this POC. Recurrence rate, and Transitivity were extracted from the accelerometer data. A Decision Tree algorithm was built to classify the two classes (gestures and non-gestures).
 
 ### Objective
-  To control an Android device using hand-gestures.
-
+  To control a device in an IoT environment using hand-gestures.
 
 ### Workflow
-1. The timestamp and corresponding x,y,z values of the accelerometer were recorded using a wearable device.
+1. The timestamp and the corresponding x,y,z values of the accelerometer were recorded using a wearable device.
 2. The SmartWatch dataset was loaded (Gestures).
 3. A recurrence matrix was computed and a **recurrence plot** was visualized.
 4. The **recurrence rate** was extracted from the recurrence plot.
 5. A **recurrence network** was built by identifying the recurrence matrix as the adjacency matrix.
 6. **Transitivity** values were extracted from the recurrence network.
 7. The same procedure was followed for extracting the features from the ADL dataset (Non-gestures).
-8. Recurrence rate, Transitivity, global clustering values were taken as the features.
-9. A binary classification model is built using **Support vector machines** and the **Decision Tree algorithm**.
-10. It was found that the decision tree performed better with an accuracy of **98%**.
+8. Recurrence rate, and Transitivity values were taken as the features.
+9. A binary classification model was built using **Decision Tree algorithm**.
+10. It was found that the algorithm had an accuracy of **98%**.
+11. 
 
 ### Introduction
   The hand-gesture recognition systems can be classified based on the type of sensor they employ. The camera-based systems have a relatively high computational cost. The performance of these systems is sensitive to the background conditions. The sensor-based systems which are worn on the wrist, employ accelerometers. They have a relatively smaller cost, and are not sensitive to the environmental conditions (e.g. light or geometry conditions). With the advancement of micro-electromechanical technologies, the size and energy efficiency of these sensors has been enhanced.
