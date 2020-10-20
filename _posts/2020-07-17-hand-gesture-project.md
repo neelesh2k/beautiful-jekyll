@@ -14,15 +14,14 @@ thumbnail-img: /assets/img/apple-watch.jpg
 ### Workflow
 1. The timestamp and the corresponding x,y,z values of the accelerometer were recorded using a wearable device.
 2. The SmartWatch dataset was loaded (Gestures).
-3. A recurrence matrix was computed and a **recurrence plot** was visualized.
+3. A **recurrence plot** was visualized after computing the recurrence matrix.
 4. The **recurrence rate** was extracted from the recurrence plot.
 5. A **recurrence network** was built by identifying the recurrence matrix as the adjacency matrix.
-6. **Transitivity** values were extracted from the recurrence network.
+6. The **Transitivity** values were extracted from the recurrence network.
 7. The same procedure was followed for extracting the features from the ADL dataset (Non-gestures).
 8. Recurrence rate, and Transitivity values were taken as the features.
 9. A binary classification model was built using **Decision Tree algorithm**.
 10. It was found that the algorithm had an accuracy of **98%**.
-11. 
 
 ### Introduction
   The hand-gesture recognition systems can be classified based on the type of sensor they employ. The camera-based systems have a relatively high computational cost. The performance of these systems is sensitive to the background conditions. The sensor-based systems which are worn on the wrist, employ accelerometers. They have a relatively smaller cost, and are not sensitive to the environmental conditions (e.g. light or geometry conditions). With the advancement of micro-electromechanical technologies, the size and energy efficiency of these sensors has been enhanced.
@@ -31,7 +30,7 @@ The dataset contains the x, y, z values of the accelerometer recorded at differe
 ### Recurrence &amp; Recurrence Plot
   Recurrence can be defined as a new occurrence of something that happened or **appeared before**. Recurrence is a fundamental property of dynamical systems, which can be exploited to characterize the system&#39;s behavior in phase space.
 In 1987, Eckmann et al. introduced the method of recurrence plots (RPs) to visualize the recurrences of dynamical systems. A recurrence plot is the graphical representation of a **binary symmetric square matrix** that encodes the times when two states are in close proximity (i.e. neighbors in phase space). If the states of the system are **similar** at the time _i_ and _j_, this is indicated by a **one** in the recurrence matrix. If the states are **different** , the corresponding entry in the matrix will be **zero**.
-Based on such a recurrence matrix, a large and diverse amount of information on the dynamics of the system can be extracted and statistically quantified (using recurrence quantification analysis, dynamical invariants, etc.)
+Based on such a recurrence matrix, a large and diverse amount of information on the dynamics of the system can be extracted and statistically quantified (using recurrence quantification analysis, dynamical invariants, etc).
 A recurrence plot is a representation of recurrent states of a dynamical system in its m-dimensional phase space. A phase space trajectory can be reconstructed for a time series by time-delay embedding.
 
 ### Recurrence Rate
