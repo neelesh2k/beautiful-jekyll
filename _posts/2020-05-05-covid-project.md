@@ -130,36 +130,8 @@ pmdarima Auto-ARIMA is a third-party tool which shows a recommended (p,d,q) ARIM
 - Number of Recoveries by 14th May : 1,625,422
 - Number of Deaths by 14th May : 367,525
 
-## Facebook's Prophet Library
-This is specifically designed to forecast the daily business data sets that are common at Facebook, Inc. 
-Prophet requires only a few lines of code to produce its forecast results.
-Unlike with ARIMA models, the measurements do not need to be regularly spaced, and we do not need to interpolate missing values e.g. from removing outliers.
-The input to Prophet is always a dataframe with two columns: ds and y.
-The ds (datestamp) column should be of a format expected by Pandas, ideally YYYY-MM-DD for a date or YYYY-MM-DD HH:MM:SS for a timestamp. The y column must be numeric, and represents the measurement we wish to forecast.
-
-### Steps in Prophet model 
-1. Format the data
-2. Create and fit a model. 
-3. Create "future" placeholder dataframe.
-4. Predict and fill in the Future
-5. Plot the forecast. 
-6. Evaluate the accuracy. 
-
-### Evaluating forecast accuracy (Facebook's Prophet Library)
-1. Standard Deviation of Test data : 325,029.92
-2.  Mean absolute error (MAE) : 23503.46
-3. Mean Squared error (MSE) : 668779741.09
-4. Root Mean Squared error (RMSE) : 25860.77
-5. R2 value : 0.999
-
-- This model predicted 4,402,222 confirmed cases by May 14, 2020.
-- Number of Active cases by 14th May : 2,673,383
-- Number of Recoveries by 14th May : 1,398,758
-- Number of Deaths by 14th May : 328,023
-
-
 ### Summary
-An R-squared-value of 1.00 depicts that the error is zero. Prophet Model has an R-squared-value of 0.999 and ARIMA model has an R-squared-value of 0.993. Thus, out of the four models, the results of Prophet and ARIMA models will be more accurate. 
+An R-squared-value of 1.00 depicts that the error is zero. ARIMA model has an R-squared-value of 0.993. Thus, out of the four models, the results of Prophet and ARIMA models will be more accurate. 
 The root-mean-squared-error is compared with the standard deviation of the test data to check the goodness of fit of that model.
 
 1. From the results of the four models and if the same trend continues, we could expect around 4.42 million confirmed cases by May 14, 2020.
