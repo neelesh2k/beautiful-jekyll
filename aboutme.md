@@ -51,7 +51,7 @@ India**.
 **GITAA Pvt. Ltd,** 
   March 2020 - August 2020
 - Built Machine Learning and Deep Learning Case Studies.
-- Worked on various cutting-edge technologies including Tensorflow, Keras, Pyunicorn, PyRQA. 
+- Worked on various cutting-edge technologies including Python, Statsmodels, Pyunicorn, PyRQA. 
 - Participated in regular meetings and sprint plannings that gave an insider’s perspective of a Data Science team.
 
 ## Positions of Responsibility
@@ -80,7 +80,9 @@ July 2018 - April 2019
 - Crossed over 500k content views in Quora.
 - Underwent a year of fitness training as a part of National Sports Organization.
 
-## Online Coursework
+
+<!---
+ ## Online Coursework
 **Deep Learning Specialization offered by deeplearning.ai :**
 -   [Neural Networks and Deep Learning](https://www.coursera.org/account/accomplishments/certificate/JX88VD7YHNY2)
 -   [Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization](https://www.coursera.org/account/accomplishments/certificate/6E77TG9T5PB8)
@@ -113,4 +115,5 @@ of Michigan :**
 -   [Django Full Stack Web
     Development](https://www.udemy.com/certificate/UC-BPZ8XC8V/)
 -   [Python
-    Bootcamp](https://www.udemy.com/certificate/UC-YR4KI7TP/)
+    Bootcamp](https://www.udemy.com/certificate/UC-YR4KI7TP/) 
+-->
