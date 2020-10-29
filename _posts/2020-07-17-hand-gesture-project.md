@@ -110,7 +110,7 @@ In many networks, it is found that if vertex A is connected to vertex B and vert
 
 - <b>Parent/Child node:</b> The root node of the tree is called the parent node, and other nodes are called the child nodes.
 
-<img src="https://cdn-images-1.medium.com/max/725/0*G6R9oy7ijo5G9HS5.png" width=400 height=400 />
+<img src="https://cdn-images-1.medium.com/max/725/0*G6R9oy7ijo5G9HS5.png" width=600 height=400 />
 
 <br>
 
@@ -229,7 +229,7 @@ Recall is the ratio of correctly predicted positive observations to the all obse
 
 F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account. Intuitively it is not as easy to understand as accuracy, but F1 is usually more useful than accuracy, especially if you have an uneven class distribution. Accuracy works best if false positives and false negatives have similar cost. If the cost of false positives and false negatives are very different, it’s better to look at both Precision and Recall. In our case, F1 score is 0.701.
 
-<img src="https://miro.medium.com/max/465/1*T6kVUKxG_Z4V5Fm1UXhEIw.png" width=200 height=200 />
+<img src="https://miro.medium.com/max/465/1*T6kVUKxG_Z4V5Fm1UXhEIw.png" width=100 height=100 />
 
 
 ### Results:
@@ -285,7 +285,7 @@ Since the random forest combines multiple trees to predict the class of the data
 
 - Step-5: For new data points, find the predictions of each decision tree, and assign the new data points to the category that wins the majority votes.
 
-<img src="https://static.javatpoint.com/tutorial/machine-learning/images/random-forest-algorithm.png" width=400 height=200/>
+<img src="https://static.javatpoint.com/tutorial/machine-learning/images/random-forest-algorithm.png" width=500 height=200/>
 
 <b>Advantages of Random Forest</b>
 
