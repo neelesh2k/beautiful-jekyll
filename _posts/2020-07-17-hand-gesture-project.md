@@ -35,6 +35,8 @@ To control a device in an IoT environment using gestures.
 - A binary classification model was built using the Decision Tree algorithm.
 - It was found that the decision tree had an accuracy of 98%.
 
+---
+
 <h4>Gesture Recognition</h4>
 
 - The SmartWatch dataset was loaded (Gestures).
@@ -53,27 +55,38 @@ The dataset contains the x, y, z values of the accelerometer recorded at differe
 
 <img src="https://tev.fbk.eu/sites/tev.fbk.eu/files/gestures_0.png" width=200 height=200 />
 ---
+
 <h2>Recurrence Network Analysis :</h2>
 
 <h3> Recurrence </h3>
 
 Recurrence can be defined as a new occurrence of something that happened or appeared before. Recurrence is a fundamental property of dynamical systems, which can be exploited to characterize the system's behavior in phase space. 
 
+---
+
 <h3> Recurrence Plot</h3>
 
 In 1987, Eckmann et al. introduced the method of recurrence plots (RPs) to visualize the recurrences of dynamical systems. A recurrence plot is the graphical representation of a binary symmetric square matrix that encodes the times when two states are in close proximity (i.e. neighbors in phase space). If the states of the system are similar at the time i and j, this is indicated by a one in the recurrence matrix. If the states are different , the corresponding entry in the matrix will be zero. Based on such a recurrence matrix, a large and diverse amount of information on the dynamics of the system can be extracted and statistically quantified (using recurrence quantification analysis, dynamical invariants, etc.) A recurrence plot is a representation of recurrent states of a dynamical system in its m-dimensional phase space. A phase space trajectory can be reconstructed for a time series by time-delay embedding.
+
+---
 
 <h3>Recurrence Rate</h3>
 
 To go beyond the visual impression yielded by RPs, several measures of complexity that quantify the small scale structures in RPs and are known as recurrence quantification analysis (RQA). The simplest measure of the RQA is the recurrence rate (RR) or percent recurrences. It is a measure of the density of recurrence points in the RP. For example, if N = 14 and the number of ones (recurrence) = 18, the RR is 0.092.
 
+---
+
 <h3>Recurrence Network</h3>
 
 Complex network statistics is helpful to characterize the local and global properties of a network. We obtain additional information from the recurrence plots, which can be used for characterizing the dynamics of the underlying process.
 
+---
+
 <h3>Adjacency matrix in networks</h3>
 
 In graph theory and computer science, an adjacency matrix is a square matrix used to represent a finite graph. The elements of the matrix indicate whether pairs of vertices are adjacent or not in the graph. In the special case of a finite simple graph, the adjacency matrix is a (0,1)- matrix with zeros on its diagonal. The basis of complex network analysis is the adjacency matrix, representing the links between the nodes of the network. Like the recurrence matrix, the adjacency matrix is also square, binary, and symmetric (in the case of an unweighted and undirected network). A recurrence matrix represents neighbors in phase space and an adjacency matrix represents links in a network. Let us consider the phase space vectors as nodes of a network and identify recurrences with links. An undirected and unweighted network is represented by the binary adjacency matrix A, where a connection between nodes i and j is marked as Ai,j = 1. Excluding self-loops, we obtain A from the RP by removing the identity matrix, Ai,j = Ri,j - δi,j , where δi,j is the Kronecker delta.
+
+---
 
 <h3>Transitivity (or) Local clustering coefficient</h3>
 
@@ -114,6 +127,8 @@ In many networks, it is found that if vertex A is connected to vertex B and vert
 
 <br>
 
+---
+
 <h3>How does the Decision Tree algorithm Work?</h3>
 
 - Step-1: Begin the tree with the root node, says S, which contains the complete dataset.
@@ -126,12 +141,16 @@ In many networks, it is found that if vertex A is connected to vertex B and vert
 
 - Step-5: Recursively make new decision trees using the subsets of the dataset created in step -3. Continue this process until a stage is reached where you cannot further classify the nodes and called the final node as a leaf node.
 
+---
+
 <h3>Attribute Selection Measures</h3>
 
 While implementing a Decision tree, the main issue arises that how to select the best attribute for the root node and for sub-nodes. So, to solve such problems there is a technique which is called as Attribute selection measure or ASM. By this measurement, we can easily select the best attribute for the nodes of the tree. There are two popular techniques for ASM, which are:
 
 - Information Gain
 - Gini Index
+
+---
 
 <h3>Information Gain:</h3>
 
@@ -145,6 +164,8 @@ While implementing a Decision tree, the main issue arises that how to select the
 
 <center>Information Gain = Entropy(S)- [(Weighted Avg) *Entropy(each feature)]</center>
 
+---
+
 <h3>Entropy:</h3>
 
 Entropy is a metric to measure the impurity in a given attribute. It specifies randomness in data. Entropy can be calculated as:
@@ -155,6 +176,8 @@ Where,
 - S= Total number of samples
 - P(yes)= probability of yes
 - P(no)= probability of no
+
+---
 
 <h3>Gini Index:</h3>
 
@@ -167,6 +190,8 @@ Where,
 - Gini index can be calculated using the below formula:
 <center>Gini Index= 1- ∑jPj2</center>
 
+---
+
 <h3>Pruning: Getting an Optimal Decision tree</h3>
 
 Pruning is a process of deleting the unnecessary nodes from a tree in order to get the optimal decision tree.
@@ -175,6 +200,8 @@ A too-large tree increases the risk of overfitting, and a small tree may not cap
 
 - Cost Complexity Pruning
 - Reduced Error Pruning.
+
+---
 
 <h3>Advantages of the Decision Tree</h3>
 
@@ -193,6 +220,7 @@ A too-large tree increases the risk of overfitting, and a small tree may not cap
 - It may have an overfitting issue, which can be resolved using the Random Forest algorithm.
 
 - For more class labels, the computational complexity of the decision tree may increase.
+
 ---
 
 ## Binary Classification
