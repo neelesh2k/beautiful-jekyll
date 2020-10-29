@@ -38,7 +38,6 @@ thumbnail-img: /assets/img/covid-world.jpg
 5. Plotly
 6. Statsmodels
 7. Scikit Learn
-8. Facebook’s Prophet
 
 ### Data Cleaning 
 Columns which are not considered:
@@ -134,10 +133,10 @@ pmdarima Auto-ARIMA is a third-party tool which shows a recommended (p,d,q) ARIM
 An R-squared-value of 1.00 depicts that the error is zero. ARIMA model has an R-squared-value of 0.993. Thus, out of the four models, the results of Prophet and ARIMA models will be more accurate. 
 The root-mean-squared-error is compared with the standard deviation of the test data to check the goodness of fit of that model.
 
-1. From the results of the four models and if the same trend continues, we could expect around 4.42 million confirmed cases by May 14, 2020.
-2. From the results of the four models and if the same trend continues, we could expect around 2.5 million active cases by May 14, 2020.
-3. From the results of the four models and if the same trend continues, we could expect around 1.45 million recovered cases by May 14, 2020.
-4. From the results of the four models and if the same trend continues, we could expect around 340,000 deaths by May 14, 2020.
+1. From the results of the two models and if the same trend continues, we could expect around 4.42 million confirmed cases by May 14, 2020.
+2. From the results of the two models and if the same trend continues, we could expect around 2.5 million active cases by May 14, 2020.
+3. From the results of the two models and if the same trend continues, we could expect around 1.45 million recovered cases by May 14, 2020.
+4. From the results of the two models and if the same trend continues, we could expect around 340,000 deaths by May 14, 2020.
 
 ### Actual number of cases on 14th May, 2020
 - Confirmed cases      :   4,442,163  (Predicted : 4,420,000)
