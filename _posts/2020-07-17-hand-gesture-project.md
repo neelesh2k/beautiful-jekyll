@@ -4,9 +4,6 @@ title: Gesture Recognition For Controlling Devices in IoT Environments
 cover-img: /assets/img/apple-watch.jpg
 thumbnail-img: /assets/img/apple-watch.jpg
 ---
-<h2>Gesture Recognition for controlling devices in IoT Environments</h2>
-
-<h3>Overview:</h3>
 
 A proof of concept was developed to identify and recognize a gesture using wearable inertial measurement units (IMU). The SmartWatch Gestures Dataset and UCI's ADL Dataset had been used for this POC. Recurrence rate and Transitivity were extracted as features from the accelerometer data. Decision Tree algorithm was built to classify the two classes (gestures and non-gestures).
 Further, a Random forest classifier was used to recognize a gesture from the 20-hand-gesture dictionary.  
