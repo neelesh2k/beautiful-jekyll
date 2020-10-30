@@ -4,18 +4,14 @@ layout: page
 
 I am a final year student, pursuing Bachelor of Engineering (B.E)
 focused in Industrial Engineering at the College of Engineering Guindy,
-Anna University. I am an aspiring Data scientist, a front-end web
-developer, a graphic designer and a blogger. \
+Anna University. \
  \
- I worked as a Data Science Intern from March 2020 to August 2020 at GITAA Pvt. Ltd. GITAA an IITM incubated company, is founded by experienced academicians from Indian Institute of Technology, Madras, who bring in a wealth of expertise and knowledge in data sciences. During my internship period, I worked on developing several case studies. These include case studies on Time Series Forecasting, Hand Gesture Recognition, Deep Learning, Sentiment Analysis, and Recommender Systems. \
+ I worked as a Data Science Intern from March 2020 to August 2020 at GITAA Pvt. Ltd. GITAA an IITM incubated company, is founded by experienced academicians from Indian Institute of Technology, Madras, who bring in a wealth of expertise and knowledge in data sciences. During my internship period, I worked on developing data science case studies on Time Series Forecasting, and Hand Gesture Recognition. \
  \
  I am a highly analytical student with a stark Mathematics background
 and experience in Python, Machine learning and Statistics. I gained
-practical experience with Data Science by proactively working with
-real-life datasets in my five independent Machine Learning projects
-preferentially using python and various sophisticated algorithms. I am
-an active participant in Kaggle’s machine learning competitions and
-HackerRank’s coding contests. I am a self-motivated student with proven
+practical experience with Data Science by working with
+real-life datasets in my Machine Learning projects. I am a self-motivated student with proven
 communication and outstanding leadership skills. \
  \
  I gained formal exposure to the foundational concepts — linear algebra,
@@ -50,8 +46,8 @@ India**.
 **Data Science Intern @** 
 **GITAA Pvt. Ltd,** 
   March 2020 - August 2020
-- Built Machine Learning and Deep Learning Case Studies.
-- Worked on various cutting-edge technologies including Python, Statsmodels, Pyunicorn, PyRQA. 
+- Developed data science case Studies on time series analysis and gesture recognition.
+- Worked on various cutting-edge technologies including Statsmodels, Pyunicorn, and PyRQA. 
 - Participated in regular meetings and sprint plannings that gave an insider’s perspective of a Data Science team.
 
 ## Positions of Responsibility
@@ -61,7 +57,7 @@ April 2019 - July 2020
 the three main campuses of Anna University with a monthly viewership of
 3000+. 
 - Assisted the president to lead the club of 150 students and mentored
-the junior designers in designing the bi-monthly print issue.
+ junior designers in designing the bi-monthly print issue.
 
 **Joint Secretary**
 July 2018 - April 2019
