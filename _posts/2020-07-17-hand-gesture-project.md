@@ -120,7 +120,7 @@ In many networks, it is found that if vertex A is connected to vertex B and vert
 
 - <b>Parent/Child node:</b> The root node of the tree is called the parent node, and other nodes are called the child nodes.
 
-<img src="https://cdn-images-1.medium.com/max/725/0*G6R9oy7ijo5G9HS5.png" width=600 height=400 />
+<img src="https://cdn-images-1.medium.com/max/725/0*G6R9oy7ijo5G9HS5.png" width=700 height=400 />
 
 <br>
 
@@ -254,7 +254,7 @@ Recall is the ratio of correctly predicted positive observations to the all obse
 
 F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account. Intuitively it is not as easy to understand as accuracy, but F1 is usually more useful than accuracy, especially if you have an uneven class distribution. Accuracy works best if false positives and false negatives have similar cost. If the cost of false positives and false negatives are very different, it’s better to look at both Precision and Recall. In our case, F1 score is 0.701.
 
-<img src="https://miro.medium.com/max/465/1*T6kVUKxG_Z4V5Fm1UXhEIw.png" width=100 height=100 />
+<img src="https://miro.medium.com/max/465/1*T6kVUKxG_Z4V5Fm1UXhEIw.png" width=200 height=100 />
 
 
 ### Results:
@@ -319,3 +319,24 @@ Since the random forest combines multiple trees to predict the class of the data
 - It is capable of handling large datasets with high dimensionality.
 
 - It enhances the accuracy of the model and prevents the overfitting issue.
+
+---
+<h3>Reference:</h3>
+
+- <a href="https://arxiv.org/pdf/1903.06643.pdf">GestureKeeper: Gesture Recognition for Controlling
+Devices in IoT Environments</a>
+
+- <a href="https://epubs.siam.org/doi/pdf/10.1137/S003614450342480?xid=PS_smithsonian">The Structure and Function of Complex Networks</a>
+
+- <a href = "https://arxiv.org/pdf/0907.3368.pdf">Complex network approach for recurrence analysis of
+time series</a>
+
+- <a href = "https://arxiv.org/pdf/0908.3447.pdf"> Recurrence networks – A novel paradigm for nonlinear time series analysis </a>
+
+- <a href="https://towardsai.net/p/programming/decision-trees-explained-with-a-practical-example-fe47872d3b53#:~:text=A%20decision%20tree%20is%20one,it%20according%20to%20the%20conditions.">Decision Trees Explained With a Practical Example</a>
+
+- <a href="https://www.javatpoint.com/machine-learning-decision-tree-classification-algorithm">Decision Tree Classification Algorithm</a>
+
+- <a href="https://www.javatpoint.com/machine-learning-random-forest-algorithm">Random Forest Classification Algorithm</a>
+
+---
