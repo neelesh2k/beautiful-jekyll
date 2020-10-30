@@ -73,7 +73,6 @@ Since we are predicting the number of worldwide cases, pandas groupby() function
 1. Holt’s model (Double exponential smoothing)
 2. Autoregressive model
 3. ARIMA model
-4. Facebook’s Prophet model
 
 ## General Time Series Forecasting models
 ### Simple Exponential Smoothing
