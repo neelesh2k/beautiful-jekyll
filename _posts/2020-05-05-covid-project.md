@@ -130,7 +130,7 @@ pmdarima Auto-ARIMA is a third-party tool which shows a recommended (p,d,q) ARIM
 - Number of Deaths by 14th May : 367,525
 
 ### Summary
-An R-squared-value of 1.00 depicts that the error is zero. ARIMA model has an R-squared-value of 0.993. Thus, out of the four models, the results of Prophet and ARIMA models will be more accurate. 
+An R-squared-value of 1.00 depicts that the error is zero. ARIMA model has an R-squared-value of 0.993. Thus, the results of ARIMA models will be more accurate. 
 The root-mean-squared-error is compared with the standard deviation of the test data to check the goodness of fit of that model.
 
 1. From the results of the two models and if the same trend continues, we could expect around 4.42 million confirmed cases by May 14, 2020.
