@@ -57,17 +57,22 @@ Since we are predicting the number of worldwide cases, pandas groupby() function
 7. The US has the greatest number of confirmed cases. The UK has an insignificant number of recoveries. In Turkey, there is an insignificant number of deaths.
 
 ## Time Series Analysis
+Time series analysis comprises methods for analyzing time series data in order to extract meaningful statistics and other characteristics of the data. Time series forecasting is the use of a model to predict future values based on previously observed values. Time series are widely used for non-stationary data, like economic, weather, stock price, and retail sales in this post.
 
-### Trend
-  A trend exists when there is a long-term increase or decrease in the data. It does not have to be linear. Sometimes we will refer to a trend as “changing direction”, when it might go from an increasing trend to a decreasing trend. 
-#### Types of Trend patterns
- - Positive Trend – It has a positive slope.
- - Negative Trend – It has a negative slope.
- - No Trend – It is just a horizontal line with zero slope.
-### Seasonal
-  A seasonal pattern occurs when a time series is affected by seasonal factors such as the time of the year or the day of the week. Seasonality is always of a fixed and known frequency. 
-### Cyclic
-  A cycle occurs when the data exhibit rises and falls that are not of a fixed frequency. These fluctuations are usually due to economic conditions, and are often related to the “business cycle”. The duration of these fluctuations is usually at least 2 years.
+### Time Series Patterns
+
+###  Trend
+A trend exists when there is a long-term increase or decrease in the data. It does not have to be linear. Sometimes we will refer to a trend as “changing direction”, when it might go from an increasing trend to a decreasing trend. It is clear that our data has a negative trend and no seasonality.
+
+###  Seasonality
+A seasonal pattern occurs when a time series is affected by seasonal factors such as the time of the year or the day of the week. Seasonality is always of a fixed and known frequency.
+
+###  Cyclicity
+A cycle occurs when the data exhibit rises and falls that are not of a fixed frequency. These fluctuations are usually due to economic conditions, and are often related to the “business cycle”. The duration of these fluctuations is usually at least 2 years.
+
+###  Stationarity
+A stationary data has a constant mean, and variance. We can easily visually interpret that the data is non-stationary as the numbers are decreasing exponentially.
+
 
 ### Forecasting Models which were used in this case study:
 1. Holt’s model (Double exponential smoothing)
@@ -76,16 +81,28 @@ Since we are predicting the number of worldwide cases, pandas groupby() function
 
 ## General Time Series Forecasting models
 ### Simple Exponential Smoothing
-This model is suitable for forecasting data with no trend or seasonal pattern. The forecast plot is simply a horizontal line extending from the most recent value.
+This model is suitable for forecasting data with no trend or seasonal pattern. The forecast plot is simply a horizontal line extending from the most recent value. 
 
 ### Double Exponential Smoothing  
-This model takes trend into account. Here the forecast plot is still a straight line extending from the most recent value, but it has slope.
+This model takes trend into account. Here the forecast plot is still a straight line extending from the most recent value, but it has slope. 
 
 ### Triple Exponential Smoothing 
-This model has (so far) the "best" looking forecast plot, as it takes seasonality into account. When we expect regular fluctuations in the future, this model attempts to map the seasonal behavior.
-Since our data has a positive trend with no seasonality, we are choosing Double Exponential Smoothing method.
+This model has (so far) the "best" looking forecast plot, as it takes seasonality into account. When we expect regular fluctuations in the future, this model attempts to map the seasonal behavior. Since our data has a negative trend with no seasonality, we are choosing Double Exponential Smoothing method.
 
-### Evaluating forecast accuracy (Holt’s model)
+## Evaluating forecast accuracy 
+### Root Mean Square Error
+The root-mean-square deviation (RMSD) or root-mean-square error (RMSE) is a frequently used measure of the differences between values (sample or population values) predicted by a model or an estimator and the values observed. RMSD is the square root of the average of squared errors.
+
+### Mean squared error
+In statistics, the mean squared error (MSE) or mean squared deviation (MSD) of an estimator (of a procedure for estimating an unobserved quantity) measures the average of the squares of the errors—that is, the average squared difference between the estimated values and the actual value.
+
+### Mean absolute error
+In statistics, mean absolute error (MAE) is a measure of errors between paired observations expressing the same phenomenon. MAE is calculated as: It is thus an arithmetic average of the absolute errors, where is the prediction and the true value.
+
+### Standard Deviation of Test data
+In statistics, the standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean of the set, while a high standard deviation indicates that the values are spread out over a wider range. 
+
+### Evaluating forecast accuracy (Holt's Model)
 1. Standard Deviation of Test data : 325,029.92
 2. Mean absolute error (MAE) : 59,530.96
 3. Mean Squared error (MSE) : 4,102,198,558.34
