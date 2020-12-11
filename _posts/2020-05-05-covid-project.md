@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Novel Corona Virus Disease - Analysis and Forecasting
+title:  Forecasting Models for The Novel Corona Virus Disease
 cover-img: /assets/img/covid-world.jpg
 thumbnail-img: /assets/img/covid-world.jpg
 ---
