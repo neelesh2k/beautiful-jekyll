@@ -17,7 +17,7 @@ Parameters:
 (3,3): is the dimensions of the feature detector. 3x3 is a common dimension to use.
 input_shape = (64,64,3): means that the input image our CNN is going to be taking is of a 64x64 resolution and 3 stands for RGB, which is a color image
 activation = relu: activation function to make sure that we don't have any negative pixel values in our feature maps. We need to remove these negative pixels in order to have non-linearity in our convolutional neural network. Because of course classifying images is a nonlinear problem and so this rectify activation function is to make sure we get this nonlinearity.</p>
-<h3>Edge Detection:</p>
+<h3>Edge Detection:</h3>
 
 <p>If an nxn image is convolved with a fxf filter, the dimension of output will be (n-f+1)x(n-f+1)
 Let's take a 6x6x1 (grayscale) image. In order to detect vertical edges, let us construct a 3x3 matrix (filter or kernel) and convolve it. The left half of the image is 10 (white) and the right half is 0 (black).
