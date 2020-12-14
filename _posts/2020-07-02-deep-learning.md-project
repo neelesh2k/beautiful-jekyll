@@ -10,75 +10,74 @@ thumbnail-img: /assets/img/pneumonia-detection.jpg
 <h4>Building a CNN mainly involves 4 steps:</h4>
 
 <h2>1. Convolution</h2>
-<p>When we as humans we see the world and process everything around us, we don't look at every single pixel of our surroundings, we just pick up the important features. This is exactly what this step does. It reduces the size of the image and keeps only the important features of it which would be neccessary to classify it. We then apply the rectifier function. This is to increase non- linearity in the image. Why do we want to increase non-linearity? The purpose of applying the rectifier function is to increase the non-linearity in our images. The reason we want to do that is that images are naturally non-linear. When you look at any image, you'll find it contains a lot of non-linear features (e.g. the transition between pixels, the borders, the colors, etc.). The rectifier serves to break up the linearity even further in order to make up for the linearity that we might impose an image when we put it through the convolution operation.</p>
-
-<h2>2. Pooling</h2>
-<p>A pooling layer is another building block of a CNN. Its function is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation in the network. Pooling layer operates on each feature map independently. The most common approach used in pooling is max pooling which is what we'll also be doing. Pooling not only helps in dimensionality reduction but also induces spatial invariance. We have to make sure that our neural network has a property called spatial invariance meaning that it doesn't have to care if the features are a bit tilted, if the features are a bit closer of features or a bit further apart relative to relative to each other. So if the feature itself is a bit distorted our neural network has to have some level of flexibility to be able to still find that feature. And that is what pooling is all about.</p>
-
-<h2>3. Flattening</h2>
-<p>After finishing the previous two steps, we're supposed to have a pooled feature map by now. As the name of this step implies, we are literally going to flatten our pooled feature map. What happens after the flattening step is that you end up with a long vector of input data that you then pass through the artificial neural network to have it processed further.</p>
-
-<h2>4. Full connection</h2>
-<p>Finally, in Convolutional neural networks we're going to be using fully connected layers. Basically that vector of outputs that we have after the flattening is passed as the input to this.</p>
-
-These steps will be explained with more detail with respect to the case study below.
-Let's go through the above code step by step
-
-<h2>Step 1 : Convolution</h2>
-<p>As explained above, step 1 is Convolution. Hence we've added a convolution layer using Conv2D. 2D because it's an image.
+<p>When we as humans we see the world and process everything around us, we don't look at every single pixel of our surroundings, we just pick up the important features. This is exactly what this step does. It reduces the size of the image and keeps only the important features of it which would be neccessary to classify it. We then apply the rectifier function. This is to increase non- linearity in the image. Why do we want to increase non-linearity? The purpose of applying the rectifier function is to increase the non-linearity in our images. The reason we want to do that is that images are naturally non-linear. When you look at any image, you'll find it contains a lot of non-linear features (e.g. the transition between pixels, the borders, the colors, etc.). The rectifier serves to break up the linearity even further in order to make up for the linearity that we might impose an image when we put it through the convolution operation.
+    Hence we've added a convolution layer using Conv2D. 2D because it's an image.
 Parameters:
 32: refers to the number of feature detectors we want. It's a common practice to start of with 32 hence we've done the same.
 (3,3): is the dimensions of the feature detector. 3x3 is a common dimension to use.
 input_shape = (64,64,3): means that the input image our CNN is going to be taking is of a 64x64 resolution and 3 stands for RGB, which is a color image
-activation = relu: activation function to make sure that we don't have any negative pixel values in our feature maps. We need to remove these negative pixels in order to have non-linearity in our convolutional neural network. Because of course classifying images is a nonlinear problem and so this rectify activation function is to make sure we get this nonlinearity.
-<h3>Edge Detection:</h3>
+activation = relu: activation function to make sure that we don't have any negative pixel values in our feature maps. We need to remove these negative pixels in order to have non-linearity in our convolutional neural network. Because of course classifying images is a nonlinear problem and so this rectify activation function is to make sure we get this nonlinearity.</p>
 
-If an nxn image is convolved with a fxf filter, the dimension of output will be (n-f+1)x(n-f+1)
-Let's take a 6x6x1 (grayscale) image. In order to detect vertical edges, let us construct a 3x3 matrix (filter or kernel) and convolve it. The left half of the image is 10 (white) and the right half is 0 (black).
+---
 
-The 3x3 filter can be visualized as light and dark pixels in either columns and gray in the middle.The resulting matrix is of size 4x4 with darker columns at the ends and brighter columns in the middle.
-
-A vertical filter will have white, gray, and black columns. A horizontal filter will have white, gray, and black rows.
- 
-<h3>Padding:</h3>
-
-Everytime you apply a convolutional operator, your image shrinks. The pixel at the corner/edge is used in only in one of the outputs, and this may lead to incorrect outputs. To solve both the problems, the image is padded by adding a border of 1 pixel. A 6x6 image becomes a 8x8 image. By convention, the image is padded with 0. The padding amount is denoted by 'p'. In this case, p = 1.
-
-The resulting matrix is of size (n+2p-f+1)x(n+2p-f+1). That is, 6x6. The image can be padded with more than 1 pixels too. 
-
-<b>Valid and Same convolutions</b> tell how much padding is needed. 
-
-In <b>Valid convolutions</b>, no padding is required. The resulting matrix is of size (n-f+1)x(n-f+1)
-
-In <b>Same convolutions</b>, the output size is same as the input size. The input matrix is of size nxn. The resulting matrix is of size (n+2p-f+1)x(n+2p-f+1). Since the dimensions are same, n gets cancelled and <b>p = (f-1)/2</b>
-
-<h3>Strided Convolution:</h3>
-
-Let's say you want to convolve a 7x7 image with a 3x3 filter. Instead of doing the element-wise product and summing in a usual way, we are going to use a stride of 2. That is, instead of stepping by one step, we are stepping by two steps. The resulting matrix is of size 3x3. The general form is given by : ((n+2p-f)/s+1),((n+2p-f)/s+1)
-
-
-<h2>Step 2: Pooling</h2>
-<p>This step is easy it just consists of reducing the size of your feature maps. (2, 2) will halve the input in both spatial dimension.
+<h2>2. Pooling</h2>
+<p>A pooling layer is another building block of a CNN. Its function is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation in the network. Pooling layer operates on each feature map independently. The most common approach used in pooling is max pooling which is what we'll also be doing. Pooling not only helps in dimensionality reduction but also induces spatial invariance. We have to make sure that our neural network has a property called spatial invariance meaning that it doesn't have to care if the features are a bit tilted, if the features are a bit closer of features or a bit further apart relative to relative to each other. So if the feature itself is a bit distorted our neural network has to have some level of flexibility to be able to still find that feature. And that is what pooling is all about.
+This step is easy it just consists of reducing the size of your feature maps. (2, 2) will halve the input in both spatial dimension.
 Why do we apply this step?
 It's because we want to reduce the number of nodes we'll get in the next step, i.e, the flattening step and then the full connection step because in these next steps basically what we'll get is all the cells of our future maps flattened into one huge one dimensional vector. So if we don't reduce the size of these feature maps well we'll get too large vector and therefore our model will be highly compute intensive. And we want to avoid that so we were playing this Max pulling step to reduce the size of our future maps and therefore reduce the number of nodes in the future fully connected layers. And that's why this will reduce the complexity and the time execution.
 Parameters:
 pool_size = (2, 2) : size of the window of maxpooling. 2x2 is what is take in general when we apply Max pooling on our feature map.
-
 To keep it simple, we're just adding three convolution layers so that we can reduce the complexity and time.</p>
 
-<h2>Step 3: Flattening</h2>
-<p>What we are basically doing here is taking the 2-D array, i.e pooled image pixels and converting them to a one-dimensional single vector. This would be the input to our fully connected layer.</p>
+---
 
-<h2>Step 4: Full Connection</h2>
-<p>And this one final step that we have to do is add the fully connected layers.What they basically do is take out feature map of the image and make predictions about it. We got the set of nodes from the flattening step and these nodes will act as an input layer to these fully-connected layers. Dense is the function to add a fully connected layer, ‘units’ is where we define the number of nodes that should be present in this hidden layer.
-The final fully connected layer has units = 1 as this is a binary classification problem: pneumonia or not. Hence the activation function is sigmoid. If you have more than one class like maybe predicting whether it's dogs, cats or birds, you will have to use softmax instead.</p>
+<h2>3. Flattening</h2>
+<p>After finishing the previous two steps, we're supposed to have a pooled feature map by now. As the name of this step implies, we are literally going to flatten our pooled feature map. What happens after the flattening step is that you end up with a long vector of input data that you then pass through the artificial neural network to have it processed further. What we are basically doing here is taking the 2-D array, i.e pooled image pixels and converting them to a one-dimensional single vector. This would be the input to our fully connected layer</p>
 
+---
+
+<h2>4. Full connection</h2>
+<p>Finally, in Convolutional neural networks we're going to be using fully connected layers. Basically that vector of outputs that we have after the flattening is passed as the input to this.And this one final step that we have to do is add the fully connected layers.What they basically do is take out feature map of the image and make predictions about it. We got the set of nodes from the flattening step and these nodes will act as an input layer to these fully-connected layers. Dense is the function to add a fully connected layer, ‘units’ is where we define the number of nodes that should be present in this hidden layer. The final fully connected layer has units = 1 as this is a binary classification problem: pneumonia or not. Hence the activation function is sigmoid. If you have more than one class like maybe predicting whether it's dogs, cats or birds, you will have to use softmax instead.</p>
+
+--- 
+
+<h2>Image Preprocessing : </h2>
+In order to avoid overfitting, it is usually a good idea to manipulate the images with rotation, resizing, and scaling so the model becomes more robust to different images that our data set doesn't have. We can use the ImageDataGenerator to do this automatically for us.
+
+---
 
 <h2>Image augmentation</h2>
 <p>It basically consists of pre-processing your images to prevent overfitting. The idea is to alter the training data with small transformations to reproduce the variations.
 Keras supplies us ready to use image augmentation code which you can find here: https://keras.io/api/preprocessing/image/ . You can find it under Example of using .flow_from_directory(directory)
 Using the code from keras documentaion, we just altered the paramters so that it fits our model. All we changed is the directory to where our images are placed and target size as ours is 64x64.</p>
 
+---
+
+<h3>Evaluation Metrics: </h3>
+
+<b>Confusion Matrix: </b>
+
+A confusion matrix is a table that is often used to describe the performance of a classification model (or "classifier") on a set of test data for which the true values are known. 
+
+<img src="https://miro.medium.com/max/1155/1*OhEnS-T54Cz0YSTl_c3Dwg.jpeg" width=400 height=200 />
+
+<b>Precision: </b>
+
+Precision is the ratio of correctly predicted positive observations to the total predicted positive observations. The question that this metric answer is of all passengers that labeled as survived, how many actually survived? High precision relates to the low false positive rate. We have got 0.788 precision which is pretty good.
+
+<b>Recall : </b>
+
+Recall is the ratio of correctly predicted positive observations to the all observations in actual class - yes. The question recall answers is: Of all the passengers that truly survived, how many did we label? We have got recall of 0.631 which is good for this model as it’s above 0.5.
+
+<img src="https://miro.medium.com/max/733/1*7J08ekAwupLBegeUI8muHA.png" width=200 height=200 />
+
+<b>F1 score : </b>
+
+F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account. Intuitively it is not as easy to understand as accuracy, but F1 is usually more useful than accuracy, especially if you have an uneven class distribution. Accuracy works best if false positives and false negatives have similar cost. If the cost of false positives and false negatives are very different, it’s better to look at both Precision and Recall. In our case, F1 score is 0.701.
+
+<img src="https://miro.medium.com/max/465/1*T6kVUKxG_Z4V5Fm1UXhEIw.png" width=200 height=100 />
+
+---
 
 Finally, we can compile our cnn. loss = 'binary_crossentropy' because we have a binary outcome. We're using the most common metric, accuracy.
 <ul>
