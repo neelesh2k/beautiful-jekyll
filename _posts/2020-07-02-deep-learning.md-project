@@ -17,8 +17,25 @@ Parameters:
 (3,3): is the dimensions of the feature detector. 3x3 is a common dimension to use.
 input_shape = (64,64,3): means that the input image our CNN is going to be taking is of a 64x64 resolution and 3 stands for RGB, which is a color image
 activation = relu: activation function to make sure that we don't have any negative pixel values in our feature maps. We need to remove these negative pixels in order to have non-linearity in our convolutional neural network. Because of course classifying images is a nonlinear problem and so this rectify activation function is to make sure we get this nonlinearity.</p>
+<h3>Edge Detection:</p>
 
+<p>If an nxn image is convolved with a fxf filter, the dimension of output will be (n-f+1)x(n-f+1)
+Let's take a 6x6x1 (grayscale) image. In order to detect vertical edges, let us construct a 3x3 matrix (filter or kernel) and convolve it. The left half of the image is 10 (white) and the right half is 0 (black).
 
+The 3x3 filter can be visualized as light and dark pixels in either columns and gray in the middle.The resulting matrix is of size 4x4 with darker columns at the ends and brighter columns in the middle.
+
+A vertical filter will have white, gray, and black columns. A horizontal filter will have white, gray, and black rows.</p>
+ 
+<h3>Padding:</h3>
+<p>Everytime you apply a convolutional operator, your image shrinks. The pixel at the corner/edge is used in only in one of the outputs, and this may lead to incorrect outputs. To solve both the problems, the image is padded by adding a border of 1 pixel. A 6x6 image becomes a 8x8 image. By convention, the image is padded with 0. The padding amount is denoted by 'p'. In this case, p = 1.
+The resulting matrix is of size (n+2p-f+1)x(n+2p-f+1). That is, 6x6. The image can be padded with more than 1 pixels too. 
+<b>Valid and Same convolutions</b> tell how much padding is needed. 
+In <b>Valid convolutions</b>, no padding is required. The resulting matrix is of size (n-f+1)x(n-f+1)
+In <b>Same convolutions</b>, the output size is same as the input size. The input matrix is of size nxn. The resulting matrix is of size (n+2p-f+1)x(n+2p-f+1). Since the dimensions are same, n gets cancelled and <b>p = (f-1)/2</b></p>
+
+<h3>Strided Convolution:</h3>
+<p>Let's say you want to convolve a 7x7 image with a 3x3 filter. Instead of doing the element-wise product and summing in a usual way, we are going to use a stride of 2. That is, instead of stepping by one step, we are stepping by two steps. The resulting matrix is of size 3x3. The general form is given by : ((n+2p-f)/s+1),((n+2p-f)/s+1)</p>
+<br>
 
 <h2>2. Pooling</h2>
 <p>A pooling layer is another building block of a CNN. Its function is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation in the network. Pooling layer operates on each feature map independently. The most common approach used in pooling is max pooling which is what we'll also be doing. Pooling not only helps in dimensionality reduction but also induces spatial invariance. We have to make sure that our neural network has a property called spatial invariance meaning that it doesn't have to care if the features are a bit tilted, if the features are a bit closer of features or a bit further apart relative to relative to each other. So if the feature itself is a bit distorted our neural network has to have some level of flexibility to be able to still find that feature. And that is what pooling is all about.
@@ -57,26 +74,27 @@ Using the code from keras documentaion, we just altered the paramters so that it
 
 <b>Confusion Matrix: </b>
 
-A confusion matrix is a table that is often used to describe the performance of a classification model (or "classifier") on a set of test data for which the true values are known. 
+<p>A confusion matrix is a table that is often used to describe the performance of a classification model (or "classifier") on a set of test data for which the true values are known. </p>
 
 <img src="https://miro.medium.com/max/1155/1*OhEnS-T54Cz0YSTl_c3Dwg.jpeg" width=400 height=200 />
 
 <b>Precision: </b>
 
-Precision is the ratio of correctly predicted positive observations to the total predicted positive observations. The question that this metric answer is of all passengers that labeled as survived, how many actually survived? High precision relates to the low false positive rate. We have got 0.788 precision which is pretty good.
+<p>Precision is the ratio of correctly predicted positive observations to the total predicted positive observations. The question that this metric answer is of all passengers that labeled as survived, how many actually survived? High precision relates to the low false positive rate. We have got 0.788 precision which is pretty good.</p>
 
 <b>Recall : </b>
 
-Recall is the ratio of correctly predicted positive observations to the all observations in actual class - yes. The question recall answers is: Of all the passengers that truly survived, how many did we label? We have got recall of 0.631 which is good for this model as it’s above 0.5.
+<p>Recall is the ratio of correctly predicted positive observations to the all observations in actual class - yes. The question recall answers is: Of all the passengers that truly survived, how many did we label? We have got recall of 0.631 which is good for this model as it’s above 0.5.</p>
 
 <img src="https://miro.medium.com/max/733/1*7J08ekAwupLBegeUI8muHA.png" width=200 height=200 />
 
 <b>F1 score : </b>
 
-F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account. Intuitively it is not as easy to understand as accuracy, but F1 is usually more useful than accuracy, especially if you have an uneven class distribution. Accuracy works best if false positives and false negatives have similar cost. If the cost of false positives and false negatives are very different, it’s better to look at both Precision and Recall. In our case, F1 score is 0.701.
+<p>F1 Score is the weighted average of Precision and Recall. Therefore, this score takes both false positives and false negatives into account. Intuitively it is not as easy to understand as accuracy, but F1 is usually more useful than accuracy, especially if you have an uneven class distribution. Accuracy works best if false positives and false negatives have similar cost. If the cost of false positives and false negatives are very different, it’s better to look at both Precision and Recall. In our case, F1 score is 0.701.</p>
 
 <img src="https://miro.medium.com/max/465/1*T6kVUKxG_Z4V5Fm1UXhEIw.png" width=200 height=100 />
 
+<br>
 
 
 Finally, we can compile our cnn. loss = 'binary_crossentropy' because we have a binary outcome. We're using the most common metric, accuracy.
