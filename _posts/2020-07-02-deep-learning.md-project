@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/pneumonia-detection.jpg
 
 <p>In deep learning, a convolutional neural network is a class of deep neural networks, most commonly applied to analyzing visual imagery. They are also known as shift invariant or space invariant artificial neural networks, based on their shared-weights architecture and translation invariance characteristics.</p>
 
-Building a CNN mainly involves 4 steps:
+<h4>Building a CNN mainly involves 4 steps:</h4>
 
 <h2>1. Convolution</h2>
 <p>When we as humans we see the world and process everything around us, we don't look at every single pixel of our surroundings, we just pick up the important features. This is exactly what this step does. It reduces the size of the image and keeps only the important features of it which would be neccessary to classify it. We then apply the rectifier function. This is to increase non- linearity in the image. Why do we want to increase non-linearity? The purpose of applying the rectifier function is to increase the non-linearity in our images. The reason we want to do that is that images are naturally non-linear. When you look at any image, you'll find it contains a lot of non-linear features (e.g. the transition between pixels, the borders, the colors, etc.). The rectifier serves to break up the linearity even further in order to make up for the linearity that we might impose an image when we put it through the convolution operation.</p>
