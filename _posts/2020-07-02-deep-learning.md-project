@@ -74,27 +74,30 @@ To keep it simple, we're just adding three convolution layers so that we can red
 The final fully connected layer has units = 1 as this is a binary classification problem: pneumonia or not. Hence the activation function is sigmoid. If you have more than one class like maybe predicting whether it's dogs, cats or birds, you will have to use softmax instead.</p>
 
 
-## **Image augmentation**
+<h2>Image augmentation</h2>
 <p>It basically consists of pre-processing your images to prevent overfitting. The idea is to alter the training data with small transformations to reproduce the variations.
 Keras supplies us ready to use image augmentation code which you can find here: https://keras.io/api/preprocessing/image/ . You can find it under Example of using .flow_from_directory(directory)
 Using the code from keras documentaion, we just altered the paramters so that it fits our model. All we changed is the directory to where our images are placed and target size as ours is 64x64.</p>
 
 
 Finally, we can compile our cnn. loss = 'binary_crossentropy' because we have a binary outcome. We're using the most common metric, accuracy.
+<ul>
+<li>True Positive: Predicting positive and it turns out to be true.</li>
+<li>True Negative: Predicting negative but it turns out to be true.</li>
+<li>False Positive: (Type 1 Error) Predicting positive but it turns out to be false.</li>
+<li>False Negative: (Type 2 Error) Predicting negative and it turns out to be false.</li>
+</ul>
 
-- True Positive: Predicting positive and it turns out to be true.
-- True Negative: Predicting negative but it turns out to be true.
-- False Positive: (Type 1 Error) Predicting positive but it turns out to be false.
-- False Negative: (Type 2 Error) Predicting negative and it turns out to be false.
+<h4>Finding test data accuracy :</h4>
+<ul>
+<li>Actual Normal, Predicted normal : 184</li>
+<li>Actual Normal, Predicted Pneumonia : 50</li>
+<li>Actual Pneumonia , Predicted Normal : 7</li>
+<li>Actual Pneumonia, Predicted Pneumonia : 383</li>
+<li>Number of correct predictions in test_set : 184 + 383 = 567</li>
+<li>Number of incorrect predictions in test_set : 50 + 7 = 57</li>
+<li>Test data accuracy : (567/624)*100 = 90.87%</li>
+</ul>
 
-**Finding test data accuracy :**
-- Actual Normal, Predicted normal : 184
-- Actual Normal, Predicted Pneumonia : 50
-- Actual Pneumonia , Predicted Normal : 7
-- Actual Pneumonia, Predicted Pneumonia : 383
-- Number of correct predictions in test_set : 184 + 383 = 567
-- Number of incorrect predictions in test_set : 50 + 7 = 57
-- Test data accuracy : (567/624)*100 = 90.87%
-
-**Inference :**
+<h3>Inference :</h3>
 Generally, it is acceptable to have more True Negatives than False Positives in medical diagnosis case studies. In this model, only 7 out of 624 (1%) pneumonia x-ray images are predicted normal. Our goal is to reduce the False Positives as much as possible.
