@@ -29,15 +29,15 @@ A chatbot has been built with RASA,an open source machine learning framework to 
 
 <h4>Some remarkable features:</h4>
 <ul>
-  <li>Cutting Edge NLU</li>
+  <li><b>Cutting Edge NLU</b></li>
   <p>Rasa's NLU provides developers with the technology to understand messages, determine intent, and capture key contextual information. Supports multiple languages, single and multiple intents, and both pre-trained and custom entities. </p>
   
-  <li>Dialogue management with machine learning</li>
+  <li><b>Dialogue management with machine learning</b></li>
 <p>Assistants built on Rasa can hold meaningful conversations with users - multi-step conversations that remember context and integrate business logic. Rasa learns interactively from real conversations - no state machines.</p>
 
-<li>Integrations</li>
+<li><b>Integrations</b></li>
 <p>RASA provides options to connect to existing systems, APIs, RPA, and knowledge bases.This feature helps us to integrate our chatbot to websites or even messenger applications such as telegram,whatsapp and facebook messenger.</p>
   
-<li>Availability in Both English And Tamil</li>
+<li><b>Availability in Both English And Tamil</b></li>
 <p>Our chatbot is available for queries and responses in both english and tamil in our HTML version of our chatbot! This makes it convenient for native-tamil speakers to ask queries and get responses.</p>
 </ul>
