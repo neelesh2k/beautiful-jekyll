@@ -5,7 +5,27 @@ cover-img: /assets/img/chatbot.jpg
 thumbnail-img: /assets/img/chatbot.jpg
 ---
 
-A chatbot was built using RASA.
+A chatbot has been built with RASA,an open source machine learning framework to automate text and voice based assistants.Rasa provides infrastructure & tools necessary for high-performing, resilient, proprietary contextual assistants that work. With Rasa, all developers can create better text- and voice-based assistants without actually knowing the advanced concepts of natural language processing,machine learning,deep learning and artificial intelligence.
+
+
+<h4>List of Intents the Chatbot can answer to:</h4>
+<ul>
+<li>COVID-19 General Information</li>
+<li>Testing</li>
+<li>Vaccine</li>
+<li>Incubation Period</li>
+<li>Lockdown</li>
+<li>Masks</li>
+<li>Precautionary measures(Both General and WorkPlace measures)</li>
+<li>Symptoms</li>
+<li>Causes</li>
+<li>Helpline Numbers</li>
+<li>Stress Management</li>
+<li>Sanitization</li>
+<li>Quarantine</li>
+<li>Authorized websites for Statistics</li>
+</ul>
+
 
 <h4>Some remarkable features:</h4>
 <ul>
@@ -20,5 +40,4 @@ A chatbot was built using RASA.
   
 <li>Availability in Both English And Tamil</li>
 <p>Our chatbot is available for queries and responses in both english and tamil in our HTML version of our chatbot! This makes it convenient for native-tamil speakers to ask queries and get responses.</p>
-
 </ul>
