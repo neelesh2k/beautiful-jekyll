@@ -5,7 +5,7 @@ cover-img: /assets/img/chatbot.jpg
 thumbnail-img: /assets/img/chatbot.jpg
 ---
 
-A chatbot has been built with RASA,an open source machine learning framework to automate text and voice based assistants.Rasa provides infrastructure & tools necessary for high-performing, resilient, proprietary contextual assistants that work. With Rasa, all developers can create better text- and voice-based assistants without actually knowing the advanced concepts of natural language processing,machine learning,deep learning and artificial intelligence.
+A chatbot has been built with RASA, an open source machine learning framework to automate text and voice based assistants.Rasa provides infrastructure & tools necessary for high-performing, resilient, proprietary contextual assistants that work. With RASA, all developers can create better text- and voice-based assistants without actually knowing the advanced concepts of natural language processing, machine learning, deep learning and artificial intelligence.
 
 
 <h4>List of Intents the Chatbot can answer to:</h4>
