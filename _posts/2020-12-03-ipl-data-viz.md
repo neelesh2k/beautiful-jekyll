@@ -10,7 +10,7 @@ The Indian Premier League is a professional Twenty20 cricket league in India usu
 
 
 <p align="center">
-<img src="assets/img/IPL/1.png" width=1000 height=400/>
+<img src="blob/master/assets/img/IPL/1.png" width=1000 height=400/>
 <img src="https://github.com/neelesh2k/neelesh2k.github.io/blob/master/assets/img/IPL/2.png" width=1000 height=400/>
 <img src="https://github.com/neelesh2k/neelesh2k.github.io/blob/master/assets/img/IPL/3.png" width=1000 height=400/>
 <img src="https://github.com/neelesh2k/neelesh2k.github.io/blob/master/assets/img/IPL/4.png" width=1000 height=400/>
