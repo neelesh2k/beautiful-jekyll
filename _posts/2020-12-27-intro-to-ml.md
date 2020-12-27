@@ -53,4 +53,4 @@ thumbnail-img: /assets/img/types-of-ml.png
 * Reinforcement learning can be best explained by a game of Pac-man. The task for the agent or Pac-man is to eat the food in the interactive environment or grid while dodging the ghosts. It levels up or gets rewarded when the task is completed. If it collides with a ghost, it loses its life or gets punished.
 * This type of Machine Learning finds its application in robotics, business strategy planning, traffic light control, web system configuration, and so on.
 
-<center><img src="https://miro.medium.com/max/1204/0*-068ud_-o3ajwq_z.jpg" alt="Types of Machine Learning" width="602" height="414"></center>
+<img src="https://miro.medium.com/max/1204/0*-068ud_-o3ajwq_z.jpg" alt="Types of Machine Learning"  class="center" width="602" height="414">
