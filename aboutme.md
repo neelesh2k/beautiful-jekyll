@@ -19,7 +19,10 @@ I am detail-oriented, organized, and precise in my work. I like to explore the r
 ## Education
 
 **Bachelor of Engineering**
-Currently pursuing my 7th semester in Industrial Engineering at the [College of Engineering Guindy](College Of Engineering, Guindy (https://ceg.annauniv.edu/)) which is recognized as an institute of national importance by the **Government of India**. 
+- Currently pursuing my 8th semester in Industrial Engineering at the [College of Engineering Guindy](College Of Engineering, Guindy (https://ceg.annauniv.edu/)) which is recognized as an institute of national importance by the **Government of India**. 
+- Did my 12th grade in Velammal Matric. Hr. Secondary School, Chennai and seecured **97%** in Tamil Nadu HSC Examinations, 2017.
+- Did my 10th grade in Balalok Matric. Hr. Secondary School, Chennai and seecured **96%** in Tamil Nadu SSLC Examinations, 2015.
+
 
 **Relevant coursework:**
 -   Probability and Statistics
@@ -75,16 +78,16 @@ July 2018 - April 2019
 
 
 ---
- ## Online Coursework
+## Online Coursework
  
-**Deep Learning Specialization offered by http://deeplearning.ai:**
+**Deep Learning Specialization offered by Coursera**
 -   Neural Networks and Deep Learning
 -   Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 -   Convolutional Neural Networks
 -   Structuring Machine Learning Projects  
 -   Sequence Models
 
-**TensorFlow in Practice Specialization offered by http://deeplearning.ai:**
+**TensorFlow in Practice Specialization offered by Coursera**
 -   Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
 -   Convolutional Neural Networks in TensorFlow
 -   Natural Language Processing in TensorFlow
