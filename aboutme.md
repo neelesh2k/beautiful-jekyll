@@ -7,7 +7,7 @@ I am currently in the final year of Industrial Engineering at the College of Eng
 I worked as a Data Science Intern from March 2020 to August 2020 at GITAA Pvt. Ltd., an IITM incubated company, which was founded by experienced academicians from the Indian Institute of Technology, Madras. During my internship, I had the opportunity to work with Data Scientists and developed machine learning proofs of concept. I worked on developing data science case studies on Time Series Forecasting, and Hand Gesture Recognition. I also assisted in preparing the machine learning assignments, and quizzes for GITAA’s corporate training course.
 
 
-I am a highly analytical student with a stark Mathematics background and experience in Python, Machine learning, and Statistics. I gained practical experience with Data Science by working with real-life datasets in my Machine Learning projects. I gained formal exposure to the foundational concepts — linear algebra, probability, and statistics through the courses in my curriculum. The course ‘Python Programming’ aided me to become proficient in Python. In the course ‘Applied Multivariate Statistical Analysis’, I learned about several machine learning algorithms. I have also enrolled in online courses to learn about Machine Learning and Deep Learning offered by the University of Michigan, Stanford University, and Deeplearning.ai (http://Deeplearning.ai). All these courses broadened my skill set significantly and kindled my interest to pursue analytics as a career. 
+I am a highly analytical student with a stark Mathematics background and experience in Python, Machine learning, and Statistics. I gained practical experience with Data Science by working with real-life datasets in my Machine Learning projects. I gained formal exposure to the foundational concepts — linear algebra, probability, and statistics through the courses in my curriculum. The course ‘Python Programming’ aided me to become proficient in Python. In the course ‘Applied Multivariate Statistical Analysis’, I learned about several machine learning algorithms. I have also enrolled in online courses to learn about Machine Learning and Deep Learning offered by the University of Michigan, Stanford University, and Deeplearning.ai. All these courses broadened my skill set significantly and kindled my interest to pursue analytics as a career. 
 
 
 I am a self-motivated student with proven communication and outstanding leadership skills. During my tenure as the Joint Secretary of the department, I led a class of 50, managed the finance, marketing, and overall administration of the department’s events and symposium with 500+ participants. As the Deputy Director of Design, I mentored over 20 junior designers and designed the bi-monthly print issue with a viewership of 3000+. I am a part of almost every student-organized club or society in my college and organized various events throughout my college life. 
@@ -77,24 +77,24 @@ July 2018 - April 2019
 ---
  ## Online Coursework
  
-**Deep Learning Specialization offered by http://deeplearning.ai (http://deeplearning.ai) :**
+**Deep Learning Specialization offered by http://deeplearning.ai:**
 -   Neural Networks and Deep Learning
 -   Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 -   Convolutional Neural Networks
 -   Structuring Machine Learning Projects  
 -   Sequence Models
 
-**TensorFlow in Practice Specialization offered by http://deeplearning.ai (http://deeplearning.ai) :**
+**TensorFlow in Practice Specialization offered by http://deeplearning.ai:**
 -   Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
 -   Convolutional Neural Networks in TensorFlow
 -   Natural Language Processing in TensorFlow
 -   Sequences, Time Series and Prediction
 
-**Applied Data Science with Python Specialization offered by University of Michigan :**
+**Applied Data Science with Python Specialization offered by University of Michigan:**
 -   Introduction to Data Science in Python
 -   Applied Machine Learning in Python
 
-**Applied Data Science Specialization offered by IBM :**
+**Applied Data Science Specialization offered by IBM:**
 -   Python for Data Science and AI
 
 ---
