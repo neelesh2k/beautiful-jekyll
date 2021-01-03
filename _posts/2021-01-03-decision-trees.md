@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  Decision Trees: Explained
+title:  Decision Tree - Explained
 cover-img: /assets/img/decision-tree.jpg
 thumbnail-img: /assets/img/decision-tree.jpg
 ---
+
 
 Decision Tree is a Supervised learning technique that can be used for both classification and Regression problems, but mostly it is preferred for solving Classification problems.
 Decision Trees usually mimic human thinking ability while making a decision, so it is easy to understand.
