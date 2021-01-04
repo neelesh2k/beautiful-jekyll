@@ -1,0 +1,24 @@
+---
+layout: post
+title:  Convoluti onal Neural Network - Explained
+cover-img: /assets/img/cnn.jpeg
+thumbnail-img: /assets/img/cnn.jpeg
+---
+
+Convolutional neural networks is a type of feed-forward artificial neural network in the connectivity pattern between its neurons is inspired by the organization of the animal visual cortex.
+In a convolutional neural network, the neuron in a layer will only be connected to a small region of the layer before it, instead of all of the neurons in a fully-connected manner.
+A fully connected neural network is not used for image classification because when an image of size (200x200x3) is passed, the first hidden layer will have 120,000 parameters. Having so many parameters will result in overfitting. 
+
+<h3>Steps in CNN</h3>
+<ul>
+<li>Convolution</li>
+<li>ReLU Layer</li>
+<li>Pooling</li>
+<li>Fully Connected</li>
+</ul>
+
+<h3>Vertical edge detection</h3>
+Let us take a (6x6) image and a (3x3) filter. In a vertical filter, the values are placed vertically. '1' indicates white, '0' indicates gray, '-1' indicates black. Perform element wise product and the resulting matrix will be of size (4x4)
+
+
+CNN compares the images piece by piece. The piece that it looks for are called features. By finding rough feature matches, in roughly the same position in two images, CNN gets a lot better at seeing similarity than whole-image matching schemes.
