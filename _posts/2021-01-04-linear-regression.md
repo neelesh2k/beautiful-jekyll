@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Linear Regression - Explained
+title:  Basics of Linear Regression
 cover-img: /assets/img/linear-regression.jpeg
 thumbnail-img: /assets/img/linear-regression.jpeg
 ---
