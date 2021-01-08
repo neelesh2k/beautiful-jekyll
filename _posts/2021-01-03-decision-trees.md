@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Decision Tree - Explained
+title:  Basics of Decision Tree
 cover-img: /assets/img/decision-tree.jpg
 thumbnail-img: /assets/img/decision-tree.jpg
 ---
