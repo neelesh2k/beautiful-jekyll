@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Random Forest - Explained
+title:  Basics of Random Forest
 cover-img: /assets/img/random-forest.png
 thumbnail-img: /assets/img/random-forest.png
 ---
