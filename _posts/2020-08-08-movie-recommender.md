@@ -11,13 +11,16 @@ There are two popular methods for building recommender systems: Collaborative fi
 
 **Collaborative filtering** : The collaborative filtering method predicts (filters) the interests of a user on a product by collecting preferences information from many other users (collaborating). The assumption behind the collaborative filtering method is that if a person P1 has the same opinion as another person P2 on an issue, P1 is more likely to share P2’s opinion on a different issue than that of a randomly chosen person.
 
-**Content-based filtering method** : Content-based filtering method utilizes product features/attributes to recommend other products similar to what the user likes, based on other users’ previous actions or explicit feedback such as rating on products.
+**Content-based filtering method** : Content-based filtering method utilizes product features/attributes to recommend other products similar to what the user likes, based on other users’ previous actions or explicit feedback such as rating on products. 
+
+The idea of content-based filtering is that, if one person gave a rating of 4/5 for a movie, and another person also gave 4/5 for the same movie, then these two movies have high correlation. A pivot table is created to show the corresponding movie_rating and the corresponding user_id. If a user did not watch/rate that movie, 'NaN' will be shown. A pivot table is then converted to a csr_matrix. This is to save space as most of the values will be NaN. 
+
 
 ### Dataset Source : 
-https://www.kaggle.com/prajitdatta/movielens-100k-dataset
+<a href = "https://www.kaggle.com/prajitdatta/movielens-100k-dataset">Kaggle Link</a>
 
 ### Jupyter Notebook : 
-https://github.com/neelesh2k/Movie-Recommender-based-on-User-Rating/blob/master/Movie%20Recommender%20based%20on%20User%20Rating.ipynb
+<a href = "https://github.com/neelesh2k/Movie-Recommender-based-on-User-Rating/blob/master/Movie%20Recommender%20based%20on%20User%20Rating.ipynb"> GitHub Link</a>
 
 ### Problem statement :
 To build a Movie Recommender System based on the Customer ratings.
@@ -79,6 +82,8 @@ The compressed sparse row (CSR) or compressed row storage (CRS) or Yale format r
 - We specify “metric=cosine” so that the algorithm will calculate the cosine similarity between rating vectors.
 - Finally, we fit the model.
 
+### Cosine Similarity :
+Let us take one movie as 'Kungfu Panda', and another movie be 'Avengers'. The movies can be represented in vectors. Let one movie be at (4,10) and another movie be at (7,3). We know that, cos(0) = 1 and cos(90) = 0. If both movies are in same plane, the similarity is 100%. Similarly, if two movies are at an angle of 45 degrees, the similarity is 53%. 
 
 ### Implementing KNN Algorithm:
 In this step, the kNN algorithm measures distance to determine the “closeness” of instances. It then classifies an instance by finding its nearest neighbors, and picks the most popular class among the neighbors
