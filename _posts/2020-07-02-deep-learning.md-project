@@ -107,14 +107,16 @@ Finally, we can compile our cnn. loss = 'binary_crossentropy' because we have a 
 
 <h4>Finding test data accuracy :</h4>
 <ul>
-<li>Actual Normal, Predicted normal : 184</li>
-<li>Actual Normal, Predicted Pneumonia : 50</li>
-<li>Actual Pneumonia , Predicted Normal : 7</li>
-<li>Actual Pneumonia, Predicted Pneumonia : 383</li>
-<li>Number of correct predictions in test_set : 184 + 383 = 567</li>
-<li>Number of incorrect predictions in test_set : 50 + 7 = 57</li>
-<li>Test data accuracy : (567/624)*100 = 90.87%</li>
+<li>Actual Normal, Predicted normal : 289</li>
+<li>Actual Normal, Predicted Pneumonia : 105</li>
+<li>Actual Pneumonia , Predicted Normal : 4</li>
+<li>Actual Pneumonia, Predicted Pneumonia : 386</li>
+<li>Number of correct predictions in test_set : 289 + 386 = 675</li>
+<li>Number of incorrect predictions in test_set : 105 + 4 = 109</li>
+<li>Test data accuracy : (675/784)*100 = 86.09%</li>
 </ul>
 
 <h3>Inference :</h3>
-Generally, it is acceptable to have more True Negatives than False Positives in medical diagnosis case studies. In this model, only 7 out of 624 (1%) pneumonia x-ray images are predicted normal. Our goal is to reduce the False Positives as much as possible.
+Generally, it is acceptable to have more True Negatives than False Positives in medical diagnosis case studies.
+
+In this model, only 4 out of 784 (0.5%) pneumonia x-ray images are predicted normal. Our goal is to reduce the False Positives as much as possible.
