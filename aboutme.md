@@ -1,19 +1,19 @@
 ---
 layout: page
 ---
-I am currently in the final year of Industrial Engineering at the College of Engineering Guindy, Anna University which is consistently ranked among the top 20 engineering colleges in the country. 
+I am an Engineering graduate from the College of Engineering Guindy (CEG), Anna University. With a sumptuous infrastructure and sterling research practices, CEG has stood the test of time, making its mark as one of the acclaimed institutes for over 226 years. CEG is one of the 12 Indian Institutions to be featured in the Top 100 Universities in the world according to 'QS World University Rankings by Subject 2021'. 
 
 
-I worked as a Data Science Intern from March 2020 to August 2020 at GITAA Pvt. Ltd., an IITM incubated company, which was founded by experienced academicians from the Indian Institute of Technology, Madras. During my internship, I had the opportunity to work with Data Scientists and developed machine learning proofs of concept. I worked on developing data science case studies on Time Series Forecasting, and Hand Gesture Recognition. I also assisted in preparing the machine learning assignments, and quizzes for GITAA’s corporate training course.
+I worked as a Data Science Intern from March 2020 to August 2020 at GITAA Pvt. Ltd., an IITM incubated company founded by experienced academicians from the Indian Institute of Technology, Madras. During my internship, I had the opportunity to work with Data Scientists and developed machine learning proofs of concept. I worked on developing data science case studies on Time Series Forecasting, Hand Gesture Recognition, etc. I also assisted in preparing the machine learning assignments and quizzes for GITAA's corporate training course. I am currently working as a Research and Development Intern in Redink Edtech Solutions, a startup company. 
 
 
-I am a highly analytical student with a stark Mathematics background and experience in Python, Machine learning, and Statistics. I gained practical experience with Data Science by working with real-life datasets in my Machine Learning projects. I gained formal exposure to the foundational concepts — linear algebra, probability, and statistics through the courses in my curriculum. The course ‘Python Programming’ aided me to become proficient in Python. In the course ‘Applied Multivariate Statistical Analysis’, I learned about several machine learning algorithms. I have also enrolled in online courses to learn about Machine Learning and Deep Learning offered by the University of Michigan, Stanford University, and Deeplearning.ai. All these courses broadened my skill set significantly and kindled my interest to pursue analytics as a career. 
+I am a profoundly analytical student with a stark Mathematics background and experience in Python, Machine learning, and Statistics. I gained practical experience with Data Science by working with real-life datasets in my independent Machine Learning projects. I gained formal exposure to the foundational concepts — linear algebra, probability, and statistics through the courses in my bachelor's curriculum. The course -Python Programming aided me to become proficient in Python. In the subject Applied Multivariate Statistical Analysis, I learned about various machine learning algorithms. I have also enrolled in online courses to learn about Machine Learning and Deep Learning offered by the University of Michigan, Stanford University, and Deeplearning.ai. All these courses broadened my skill set significantly and kindled my interest to pursue analytics as a career. 
 
 
-I am a self-motivated student with proven communication and outstanding leadership skills. During my tenure as the Joint Secretary of the department, I led a class of 50, managed the finance, marketing, and overall administration of the department’s events and symposium with 500+ participants. As the Deputy Director of Design, I mentored over 20 junior designers and designed the bi-monthly print issue with a viewership of 3000+. I am a part of almost every student-organized club or society in my college and organized various events throughout my college life. 
+I am a self-motivated student with proven communication and outstanding leadership skills. In my final year, I was appointed as the Head of Content for the Student's Association and Art's Society of CEG, a highly coveted post with intense competition. During my tenure as the Joint Secretary of the department, I led a class of 50, managed the finance, marketing, and overall administration of the department's events and symposium with 500+ participants. As the Deputy Director of Design, I mentored over 20 junior designers and designed the bi-monthly print issue with a viewership of 3000+. I am a part of almost every student-organized club or society in my college and organized various events throughout my college life. 
 
 
-I am detail-oriented, organized, and precise in my work. I like to explore the relationship between numbers and translate digits and spreadsheets into stories. I take pride in my ability to make data accessible to both executive decision-makers and frontline sales staff. Having scored more than 80% in all my semesters, I believe that I am consistent with my work.  Coming to my personal sphere, I am a blogger with 500k+ viewers in Quora. I have a passion for technology and keep myself updated with the latest trends in the world of technology. My hobbies include cooking, graphic designing, listening to TED Talks, and reading blogs on Medium. 
+I am detail-oriented, organized, and precise in my work. I like to explore the relationship between numbers and translate digits and spreadsheets into stories. I take pride in my ability to make data accessible to both executive decision-makers and frontline sales staff. Having scored more than 80% in all my semesters, I believe that I am consistent with my work.  Coming to my sphere, I am a blogger with 550k+ viewers in Quora. I have a passion for technology and keep myself updated with the latest trends in the world of technology. I have also recently started a podcast channel on Spotify. My hobbies include cooking, graphic designing, listening to TED Talks, and reading blogs on Medium. 
 
 ---
 ## Education
@@ -40,14 +40,25 @@ I am detail-oriented, organized, and precise in my work. I like to explore the r
 
 **Data Science Intern @ GITAA Pvt. Ltd,** 
   March 2020 - August 2020
-- Developed data science case Studies on time series analysis and gesture recognition.
-- Worked on various cutting-edge technologies including Statsmodels, Pyunicorn, and PyRQA. 
-- Participated in regular meetings and sprint plannings that gave an insider’s perspective of a Data Science team.
-- Assisted in preparing the machine learning assignments and quizzes for GITAA's corporate training course.
+- Developed data science case studies on time series analysis, gesture recognition, and machine learning
+- Assisted in preparing the machine learning assignments, and quizzes for GITAA’s corporate training course
+- Worked on various cutting-edge technologies, including TensorFlow, Statsmodels, Pyunicorn, and PyRQA
 
+**Research and Development Intern @ Redink Edtech Solutions** 
+  February 2021 - June 2021
+- Performed data mining and data cleaning on academic curriculum data for building machine learning models
+- Assisted in developing the e-learning platform by providing required learning materials and questions
+- Participated in regular meetings and spirit planing that gave an insider’s perspective of a data science team
 
 ---
 ## Positions of Responsibility
+
+**Head of Content** 
+December 2020 - May 2021
+- The Student's Association and Art's Society of CEG (SAAS) is the official student representative body and the cultural organizing committee of CEG 
+- Led the contents team and developed digital campaigns for Techofes 2021, South India's oldest cultural fest
+- Worked with corporate relations, events, and design team for creating content for the festival's brochure
+
 
 **Deputy Director of Design** 
 April 2019 - July 2020 
